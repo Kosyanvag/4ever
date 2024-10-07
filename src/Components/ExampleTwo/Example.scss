@@ -1,0 +1,258 @@
+.ExampleTwo {
+  width: 100%;
+  max-width: 1440px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(239, 236, 240);
+  overflow-y: hidden;
+
+  &__content {
+    text-align: center;
+    color: ghostwhite;
+
+    &-title {
+      background: url("../../../public/images/imagesTwo/wedding1.jpg") no-repeat
+        center;
+      background-size: cover;
+      width: 100%;
+      max-width: 1440px;
+      height: 100%;
+      padding-top: 120px;
+      color: rgb(239, 236, 240);
+      overflow-y: hidden;
+
+      h1 {
+        margin-top: 200px;
+        font-size: 70px;
+      }
+
+      p {
+        font-size: 32px;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 100px;
+        margin-bottom: 40px;
+      }
+
+      img:hover {
+        margin-top: 10px;
+        transition: 0.4s linear;
+      }
+    }
+
+    &-about {
+      color: rgb(119, 115, 115);
+      margin: 140px auto;
+
+      h2 {
+        font-size: 34px;
+        text-transform: uppercase;
+      }
+
+      p {
+        width: 30em;
+        font-size: 22px;
+        margin: 60px auto;
+      }
+
+      img {
+        width: 100px;
+        margin-top: 60px;
+      }
+
+      img:hover {
+        transform: rotate(180deg);
+      }
+    }
+
+    &-day {
+      margin: 140px auto;
+      font-size: 36px;
+      color: rgb(119, 115, 115);
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      button {
+        background-color: rgb(119, 115, 115);
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 30px;
+        border: 0;
+        margin: 60px 0 100px;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 200px;
+
+        a {
+          color: rgb(239, 236, 240);
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-photo {
+      background: url("../../../public/images/imagesTwo/wedding2.jpg") no-repeat
+        center;
+      background-size: cover;
+      max-width: 1440px;
+      width: 100%;
+      height: 80vh;
+      padding-top: 80px;
+
+      h2 {
+        text-transform: uppercase;
+        color: rgb(239, 236, 240);
+        font-size: 32px;
+      }
+
+      img {
+        width: 260px;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__content {
+      &-title {
+        h1 {
+          font-size: 54px;
+        }
+
+        p {
+          font-size: 30px;
+        }
+      }
+
+      &__content-about p {
+        width: 25em;
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    &__content {
+      &-title {
+        overflow-y: hidden;
+
+        h1 {
+          font-size: 50px;
+        }
+
+        p {
+          font-size: 28px;
+          margin-bottom: 40px;
+        }
+
+        img {
+          width: 70px;
+        }
+      }
+
+      &__content-about p {
+        width: 20em;
+        font-size: 18px;
+      }
+
+      &__content-day button {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+      }
+      &-photo {
+        img {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__content-title {
+      h1 {
+        font-size: 44px;
+      }
+
+      p {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+
+      img {
+        width: 70px;
+      }
+    }
+
+    &__content-about p {
+      width: 18em;
+      font-size: 16px;
+    }
+
+    &__content-day {
+      font-size: 30px;
+
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+
+      button {
+        width: 130px;
+        height: 35px;
+        font-size: 12px;
+        overflow-y: hidden;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    &__content {
+      &-photo {
+        height: 80%;
+      }
+
+      &-title {
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+          // margin-bottom: 40px;
+        }
+
+        img {
+          width: 40px;
+        }
+      }
+
+      &__content-about p {
+        width: 16em;
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+
+      &__content-day button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+      }
+    }
+  }
+}

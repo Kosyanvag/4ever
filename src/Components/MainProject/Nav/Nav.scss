@@ -1,0 +1,31 @@
+.Nav {
+  background-color: var(--green);
+  color: var(--gold);
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+    img {
+      width: 70px;
+    }
+    &-socials {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: 40px;
+      }
+      p {
+        margin-left: 20px;
+        background-color: var(--gold);
+        color: var(--green);
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+}

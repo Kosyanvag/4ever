@@ -1,0 +1,33 @@
+.ExampleFour {
+  &__content {
+    width: 100%;
+    &-title {
+      background: url("../../../public/imagesFive/wedding2.jpg") no-repeat
+        center;
+      background-size: cover;
+      width: 100%;
+      max-width: 1440px;
+      height: 100vh;
+    }
+    &-clock {
+      background-color: rgb(226, 190, 196);
+
+      h3 {
+        font-size: 32px;
+        color: rgb(179, 163, 163);
+        text-align: center;
+        margin: 40px 0;
+      }
+      > div {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        font-weight: 700;
+        p {
+          font-size: 28px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
