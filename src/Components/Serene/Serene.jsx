@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./Example.scss";
+import "./Serene.scss";
 
-export default function Example() {
+export default function Serene() {
   const targetDate = new Date("2025-01-09T11:00:00").getTime();
   const calculateTimeLeft = () => {
     const difference = targetDate - new Date();
@@ -27,22 +27,21 @@ export default function Example() {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <div className="ExampleThree">
-      <div className="ExampleThree__content">
-        <div className="ExampleThree__content-title">
-          <div className="ExampleThree__content-title-left">
-            <audio src="https://www.youtube.com/watch?v=UCVpC2hLso0&list=PLrVjyoIgQCIYbstgXhQNOQfiEQXRi8I6G&index=3"></audio>
+    <div className="Serene">
+      <div className="Serene__content">
+        <div className="Serene__content-title">
+          <div className="Serene__content-title-left">
             <h2>ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԵՐ</h2>
             <h1>A & M</h1>
             <h3>
               Armen & Mane <br /> Our forever begins today
             </h3>
           </div>
-          <div className="ExampleThree__content-title-right">
-            <img src="./images/imagesThree/2.jpg" alt="photo" />
+          <div className="Serene__content-title-right">
+            <img src="./images/Serene/2.jpg" alt="photo" />
           </div>
         </div>
-        <div className="ExampleThree__content-clock">
+        <div className="Serene__content-clock">
           <h3>Մնաց</h3>
           {timeLeft.days !== undefined ? (
             <div>
@@ -69,8 +68,8 @@ export default function Example() {
             </div>
           )}
         </div>
-        <div className="ExampleThree__content-about">
-          <div className="ExampleThree__content-about-left">
+        <div className="Serene__content-about">
+          <div className="Serene__content-about-left">
             <h2>ՍԻՌԵԼԻ ՀՅՈՒՐԵՐ</h2>
             <p>
               Մենք ցանկանում ենք Ձեզ հետ կիսել մեր կյանքի կարևորագույն օրերից
@@ -78,28 +77,28 @@ export default function Example() {
             </p>
             <h2>09.01.2025</h2>
           </div>
-          <div className="ExampleThree__content-about-center">
-            <img src="./images/imagesThree/1.jpg" alt="photo" />
+          <div className="Serene__content-about-center">
+            <img src="./images/Serene/1.jpg" alt="photo" />
           </div>
-          <div className="ExampleThree__content-about-right">
-            <img src="./images/imagesThree/4.jpg" alt="photo" />
+          <div className="Serene__content-about-right">
+            <img src="./images/Serene/4.jpg" alt="photo" />
           </div>
         </div>
-        <div className="ExampleThree__content-day">
+        <div className="Serene__content-day">
           <h2>Օրվա ծրագիրը</h2>
-          <div className="ExampleThree__content-day-block">
-            <div className="ExampleThree__content-day-block-left">
-              <img src="./images/imagesThree/5.jpg" alt="photo" />
+          <div className="Serene__content-day-block">
+            <div className="Serene__content-day-block-left">
+              <img src="./images/Serene/5.jpg" alt="photo" />
             </div>
-            <div className="ExampleThree__content-day-block-center">
-              <img src="./images/imagesThree/3.jpg" alt="photo" />
+            <div className="Serene__content-day-block-center">
+              <img src="./images/Serene/3.jpg" alt="photo" />
             </div>
-            <div className="ExampleThree__content-day-block-right">
-              <img src="./images/imagesThree/6.jpg" alt="photo" />
+            <div className="Serene__content-day-block-right">
+              <img src="./images/Serene/6.jpg" alt="photo" />
             </div>
           </div>
           <div>
-            <img src="./images/imagesThree/wedding-ring (1).svg" alt="" />
+            <img src="./images/Serene/wedding-ring (1).svg" alt="" />
             <h3>Պսակադրություն</h3>
             <h4>
               14:30 <br /> Սուռբ Գայանե եկեղեցի
@@ -110,7 +109,7 @@ export default function Example() {
             </button>
           </div>
           <div>
-            <img src="./images/imagesThree/champagne-glasses (1).svg" alt="" />
+            <img src="./images/Serene/champagne-glasses (1).svg" alt="" />
             <h3>Հարսանյաց հանդիսություն</h3>
             <h4>
               18:00 <br /> "ՆՈՐ ԴՎԻՆ" <br /> Rhodes Music hall / <br /> by
@@ -123,19 +122,19 @@ export default function Example() {
             </button>
           </div>
 
-          <div className="ExampleThree__content-day-block">
-            <div className="ExampleThree__content-day-block-left">
-              <img src="./images/imagesThree/9.jpg" alt="photo" />
+          <div className="Serene__content-day-block">
+            <div className="Serene__content-day-block-left">
+              <img src="./images/Serene/9.jpg" alt="photo" />
             </div>
-            <div className="ExampleThree__content-day-block-center">
-              <img src="./images/imagesThree/8.jpg" alt="photo" />
+            <div className="Serene__content-day-block-center">
+              <img src="./images/Serene/8.jpg" alt="photo" />
             </div>
-            <div className="ExampleThree__content-day-block-right">
-              <img src="./images/imagesThree/7.jpg" alt="photo" />
+            <div className="Serene__content-day-block-right">
+              <img src="./images/Serene/7.jpg" alt="photo" />
             </div>
           </div>
         </div>
-        <div className="ExampleThree__content-contact">
+        <div className="Serene__content-contact">
           <h2>Խնդրում ենք հաստատել Ձեր ներկայությունը միջոցառմանը</h2>
           <p>Կսպասենք պատասխանի մինչև 01.01.2025</p>
 

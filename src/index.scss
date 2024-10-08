@@ -7,7 +7,15 @@
   --lightGold: #c9c08f;
   --white: whitesmoke;
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 body {
-  font-family: "EB Garamond";
+  // font-family: "EB Garamond";
   // font-family: "Noto Sans Armenian";
 }

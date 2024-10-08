@@ -1,16 +1,17 @@
-import "./Example.scss";
+import "./Bliss.scss";
 
-export default function Example() {
+export default function Bliss() {
   return (
-    <div className="ExampleTwo">
-      <div className="ExampleTwo__content">
-        <div className="ExampleTwo__content-title">
-          <p>ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԵՐ</p>
+    <div className="Bliss">
+      <div className="Bliss__content">
+        <div className="Bliss__content-title">
           <h1>
             Արամ & <br /> Մարիաննա
           </h1>
+          <p>ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԵՐ</p>
+          <img src="./images/Bliss/down-arrow.svg" alt="down" />
         </div>
-        <div className="ExampleTwo__content-about">
+        <div className="Bliss__content-about">
           <h2>Ընկերներ և բարեկամներ</h2>
           <p>
             Լիահույս ենք, որ կկիսեք մեզ հետ մեր կյանքի լուսավոր օրը։ <br />{" "}
@@ -20,9 +21,9 @@ export default function Example() {
           <h2>
             12 Դեկտեմբերի <br /> 2024
           </h2>
-          <img src="./images/imagesTwo/infinity.png" alt="infinity" />
+          <img src="./images/Bliss/infinity.png" alt="infinity" />
         </div>
-        <div className="ExampleTwo__content-day">
+        <div className="Bliss__content-day">
           <h2>
             14:30 <br /> <br /> Պսակադրություն <br />{" "}
           </h2>
@@ -46,8 +47,8 @@ export default function Example() {
             </a>
           </button>
         </div>
-        <div className="ExampleTwo__content-photo">
-          <img src="./images/imagesTwo/love.svg" alt="love" />
+        <div className="Bliss__content-photo">
+          <img src="./images/Bliss/love.svg" alt="love" />
           <h2>Սիրով սպասում ենք Ձեզ</h2>
         </div>
       </div>
