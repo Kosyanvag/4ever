@@ -3,23 +3,39 @@ export default function Products() {
   const data = [
     {
       id: 1,
-      img: "./images/Main/Products/Pure.svg",
+      img: "./images/Serene/1.jpg",
+      title: "Serene",
+      desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
     },
     {
       id: 2,
-      img: "./images/Main/Products/Pure.svg",
+      img: "./images/Bliss/wedding1.jpg",
+      title: "Bliss",
+      desc: '"Безмятежная радость, наполненная любовью"',
     },
     {
       id: 3,
-      img: "./images/Main/Products/Pure.svg",
+      img: "./images/Eternal/wedding.jpg",
+      title: "Eternal",
+      desc: '"Любовь, которая не знает конца."',
     },
     {
-      id: 4,
-      img: "./images/Main/Products/Pure.svg",
+      id: 3,
+      img: "./images/Eternal/wedding.jpg",
+      title: "Eternal",
+      desc: '"Любовь, которая не знает конца."',
     },
     {
-      id: 5,
-      img: "./images/Main/Products/Pure.svg",
+      id: 3,
+      img: "./images/Eternal/wedding.jpg",
+      title: "Eternal",
+      desc: '"Любовь, которая не знает конца."',
+    },
+    {
+      id: 3,
+      img: "./images/Eternal/wedding.jpg",
+      title: "Eternal",
+      desc: '"Любовь, которая не знает конца."',
     },
   ];
   return (
@@ -28,7 +44,8 @@ export default function Products() {
         {data.map((elem) => (
           <div key={elem.id}>
             <img src={elem.img} alt="photo" />
-            <button>Պատվիրել</button>
+            <h1>{elem.title}</h1>
+            <p>{elem.desc}</p>
           </div>
         ))}
       </div>

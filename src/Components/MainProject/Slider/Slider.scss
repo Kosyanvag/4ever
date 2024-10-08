@@ -1,5 +1,6 @@
-footer {
-  height: 400px;
-  width: 100%;
-  border: 1px solid red;
+.Slider{
+  &__content{
+    background-color: var(--white);
+    height: 700px;
+  }
 }
