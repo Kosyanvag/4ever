@@ -7,7 +7,7 @@ export default function Products() {
     },
     {
       id: 2,
-      img: "./images/Main/Products/Pure.svg",
+      img: "./images/Main/Products/Love.png",
     },
     {
       id: 3,

@@ -1,5 +1,5 @@
 import "./Slider.scss";
 
 export default function Slider() {
-  return <footer></footer>;
+  return <div className="Slider"></div>;
 }
