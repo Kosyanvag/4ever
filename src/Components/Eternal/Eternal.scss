@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
-.Example {
+.Eternal {
   width: auto;
   max-width: 1440px;
   height: auto;
-  font-family: "Merriweather";
+  font-family: "EB Garamond";
   background-color: ghostwhite;
 
   &__content {
@@ -12,16 +12,16 @@
     color: ghostwhite;
 
     &-title {
-      background: url("../../../public/images/images/wedding.jpg") no-repeat
+      background: url("../../../public/images/Eternal/wedding.jpg") no-repeat
         center;
       background-size: cover;
-      height: 100vh;
+      height: 100%;
       padding-top: 80px;
 
       h2 {
         font-size: 60px;
         font-weight: 700;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
       }
       h1 {
         margin-bottom: 120px;
@@ -31,7 +31,8 @@
         }
       }
       p {
-        font-size: 50px;
+        font-size: 48px;
+        margin-bottom: 20px;
       }
     }
     &-about {
@@ -50,7 +51,7 @@
     &-clock {
       color: rgb(94, 87, 87);
       margin: 140px auto;
-      font-size: 36px;
+      font-size: 34px;
 
       h3 {
         text-transform: uppercase;
@@ -68,7 +69,7 @@
       margin: 180px auto;
 
       h2 {
-        font-size: 36px;
+        font-size: 34px;
         text-transform: uppercase;
       }
       img {
@@ -102,7 +103,7 @@
     }
     &-location {
       color: rgb(94, 87, 87);
-      margin: 140px auto;
+      margin-bottom: 100px;
 
       h2 {
         font-size: 32px;
@@ -111,9 +112,12 @@
       }
 
       img {
+        width: 600px;
+        height: 400px;
         border-radius: 8px;
         box-shadow: rgb(94, 87, 87);
         margin-bottom: 60px;
+        
       }
       p {
         font-size: 22px;
@@ -122,7 +126,7 @@
         margin-bottom: 40px;
       }
       iframe {
-        width: 800px;
+        width: 600px;
         height: 400px;
         border: 0;
         outline: none;
@@ -137,7 +141,7 @@
         margin: 40px 0;
       }
       h4 {
-        font-size: 42px;
+        font-size: 34px;
         margin: 60px 0;
       }
 
@@ -153,7 +157,7 @@
           margin: 0 auto;
           padding: 8px;
           border-radius: 8px;
-          border: 1px solid rgb(94, 87, 87);
+          border: 2px solid rgb(94, 87, 87);
           background-color: ghostwhite;
         }
       }
@@ -185,8 +189,8 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .Example__content-title {
+@media (max-width: 768px) {
+  .Eternal__content-title {
     height: auto;
     padding-top: 20px;
     h2 {
@@ -206,7 +210,7 @@
       margin-bottom: 20px;
     }
   }
-  .Example__content-about {
+  .Eternal__content-about {
     margin: 80px auto;
     h2 {
       font-size: 28px;
@@ -216,7 +220,7 @@
       font-size: 18px;
     }
   }
-  .Example__content-clock {
+  .Eternal__content-clock {
     font-size: 20px;
     h3 {
       font-size: 22px;
@@ -226,14 +230,14 @@
       gap: 1.5em;
     }
   }
-  .Example__content-dayProgramm {
+  .Eternal__content-dayProgramm {
     margin: 100px auto;
     h2 {
       font-size: 22px;
     }
     img {
       width: 40px;
-      height: 30px;
+      height: 40px;
     }
     &-one,
     &-two,
@@ -250,10 +254,10 @@
       }
     }
   }
-  .Example__content-location {
+  .Eternal__content-location {
     iframe {
       width: 60%;
-      height: 200px;
+      height: 300px;
     }
     p {
       font-size: 18px;
@@ -266,7 +270,7 @@
       width: 60%;
     }
   }
-  .Example__content-contact {
+  .Eternal__content-contact {
     form,
     select,
     button {
@@ -298,8 +302,8 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .Example__content-title {
+@media (max-width: 425px) {
+  .Eternal__content-title {
     height: auto;
     padding-top: 20px;
     h2 {
@@ -319,7 +323,7 @@
       margin-bottom: 20px;
     }
   }
-  .Example__content-about {
+  .Eternal__content-about {
     margin: 80px auto;
     h2 {
       font-size: 24px;
@@ -329,7 +333,7 @@
       font-size: 16px;
     }
   }
-  .Example__content-clock {
+  .Eternal__content-clock {
     font-size: 16px;
     h3 {
       font-size: 20px;
@@ -339,7 +343,7 @@
       gap: 1.5em;
     }
   }
-  .Example__content-dayProgramm {
+  .Eternal__content-dayProgramm {
     margin: 100px auto;
     h2 {
       font-size: 18px;
@@ -363,7 +367,7 @@
       }
     }
   }
-  .Example__content-location {
+  .Eternal__content-location {
     iframe {
       width: 70%;
       height: 200px;
@@ -379,7 +383,7 @@
       width: 70%;
     }
   }
-  .Example__content-contact {
+  .Eternal__content-contact {
     form,
     select,
     button {

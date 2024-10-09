@@ -1,16 +1,20 @@
-// import Example from "./components/Example/Example";
-// import Example from "./components/ExampleOne/Example";
-// import Example from "./Components/ExampleTwo/Example";
-// import Example from "./components/ExampleThree/Example";
-// import Example from "./components/Pure/Pure";
-// import Example from "./components/ExampleFive/Example";
+import Eternal from "./Components/Eternal/Eternal";
+import Bliss from "./Components/Bliss/Bliss";
+import Serene from "./Components/Serene/Serene";
+import Harmony from "./Components/Harmony/Harmony";
+import Radiance from "./Components/Radiance/Radiance";
 
 import Project from "./Components/MainProject/Project";
 
 export default function App() {
   return (
     <div>
-      {/* <Example /> */}
+      {/* <Eternal /> */}
+      {/* <Bliss/> */}
+      {/* <Serene /> */}
+      {/* <Harmony/> */}
+      {/* <Radiance/> */}
+
       <Project />
     </div>
   );

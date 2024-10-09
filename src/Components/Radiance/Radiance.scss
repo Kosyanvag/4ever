@@ -1,0 +1,42 @@
+.Radiance{
+    width: auto;
+  max-width: 1440px;
+//   height: 100%;
+
+  font-family: "Courier New", Courier, monospace;
+    &__conetnt{
+        text-align: center;
+
+ 
+        // height: 100%;
+        &-title{
+
+            display: flex;
+            
+            border: 2px solid red;
+  
+
+            &-left{
+
+            }
+            &-center{
+                width: 200px;
+                img{
+                    width: 200px;
+                    height: 200px;
+
+
+                }
+                
+            }
+            &-right{
+                img{
+                    width: 200px;
+   
+
+                }
+                
+            }
+        }
+    }
+}

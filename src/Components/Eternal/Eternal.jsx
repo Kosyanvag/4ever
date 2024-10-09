@@ -1,7 +1,7 @@
-import "./Example.scss";
+import "./Eternal.scss";
 
 import { useEffect, useState } from "react";
-export default function Example() {
+export default function Eternal() {
   const targetDate = new Date("2024-12-18T11:00:00").getTime();
   const calculateTimeLeft = () => {
     const difference = targetDate - new Date();
@@ -30,16 +30,16 @@ export default function Example() {
   }, [targetDate]);
 
   return (
-    <div className="Example">
-      <div className="Example__content">
-        <div className="Example__content-title">
+    <div className="Eternal">
+      <div className="Eternal__content">
+        <div className="Eternal__content-title">
           <h2>Ашот & Лилит</h2>
           <h1>
             А <span>|</span> Л
           </h1>
           <p>18 Декабря 2024</p>
         </div>
-        <div className="Example__content-about">
+        <div className="Eternal__content-about">
           <h2>дорогие гости!</h2>
           <p>
             В нашей жизни предстоят счастливые перемены! Мы хотим, чтобы в этот
@@ -48,7 +48,7 @@ export default function Example() {
             Ашот и Лилит
           </p>
         </div>
-        <div className="Example__content-clock">
+        <div className="Eternal__content-clock">
           <h3>до свадбы осталось</h3>
           {timeLeft.days !== undefined ? (
             <div>
@@ -75,57 +75,58 @@ export default function Example() {
             </div>
           )}
         </div>
-        <div className="Example__content-dayProgramm">
+        <div className="Eternal__content-dayProgramm">
           <h2>Программа дня</h2>
-          <div className="Example__content-dayProgramm-one">
+          <div className="Eternal__content-dayProgramm-one">
             <h2>15:00</h2>
-            <img src="./images/images/wed.png" alt="wedding" />
-            <div className="Example__content-dayProgramm-one-title">
+            <img src="./images/Eternal/wed.png" alt="wedding" />
+            <div className="Eternal__content-dayProgramm-one-title">
               <h2>Венчание</h2>
               <p>
-                Церковь Сурб Хач <br /> г. Ахалкалаки, ул. Тавлисуплеба, 55.
+                Церковь Святой Анны <br /> г. Ереван, ул. Абовяна 15
               </p>
               <p>Вы станете свидителями новой семьи - нашей семьи</p>
             </div>
           </div>
-          <div className="Example__content-dayProgramm-two">
+          <div className="Eternal__content-dayProgramm-two">
             <h2>17:30</h2>
-            <img src="./images/images/placeholder.png" alt="placeholder" />
-            <div className="Example__content-dayProgramm-two-title">
+            <img src="./images/Eternal/placeholder.png" alt="placeholder" />
+            <div className="Eternal__content-dayProgramm-two-title">
               <h2>Сбор гостей</h2>
-              <p>Банкетный зал "Колизей" г. Ахалкалаки, ул. Свободы 87/3</p>
+              <p>Банкетный зал "Колизей" г. Ереван, ул. Пароняна 40</p>
               <p>Просим взять собой хорошее настроение и свои улыбки</p>
             </div>
           </div>
-          <div className="Example__content-dayProgramm-three">
+          <div className="Eternal__content-dayProgramm-three">
             <h2>18:00</h2>
-            <img src="./images/images/banquet.png" alt="eatbanwuet" />
-            <div className="Example__content-dayProgramm-three-title">
+            <img src="./images/Eternal/banquet.png" alt="eatbanwuet" />
+            <div className="Eternal__content-dayProgramm-three-title">
               <h2>Начало банкета</h2>
               <p>Время вкусной еды, танцев и развлечений</p>
             </div>
           </div>
         </div>
-        <div className="Example__content-location">
+        <div className="Eternal__content-location">
           <h2>Локация</h2>
-          <p>Наш праздник пройдет в банкетном зале "Колизей".</p>
+          <p>Наш праздник пройдет в банкетном зале "Dvin".</p>
           <p>
-            Он находится по адресу <br /> г. Ахалкалаки, ул. Свободы 87/3
+            Он находится по адресу <br /> г. Ереван, ул. Пароняна 40
           </p>
-          <img src="./images/images/kolizey.jpg" alt="kolizey" />
+          <img src="./images/Eternal/dvin.jpg" alt="dvin" />
           <h2>как добраться?</h2>
           <p>
             Мы подготовили для вас карту, чтобы вы точно добрались и порадовали
             нас своим присутствием.
           </p>
+
           <iframe
-            src="https://yandex.com/maps/-/CDXIu6m9"
+            src="https://yandex.com/map-widget/v1/?ll=44.502287%2C40.183837&mode=search&oid=104442593428&ol=biz&z=16.42"
             width="400"
             height="300"
             loading="lazy"
           ></iframe>
         </div>
-        <div className="Example__content-contact">
+        <div className="Eternal__content-contact">
           <h2>Пожалуйста, подтвердите своё присутствие на мероприятии</h2>
           <p>Ожидаем ваш ответ до 08.12.2024</p>
 
@@ -163,7 +164,6 @@ export default function Example() {
             </select>
             <button>Отправить</button>
           </form>
-
           <h4>Мы будем счастливы видеть вас!</h4>
         </div>
       </div>

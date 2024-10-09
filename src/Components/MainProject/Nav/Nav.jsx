@@ -3,8 +3,11 @@ export default function Nav() {
   return (
     <nav className="Nav">
       <div className="Nav__content">
-        <img src="./images/Main/Nav/logo.svg" alt="photo" />
-        <div className="Nav__content-socials">
+        <div className="Nav__content-logo">
+          <img src="./images/Logo/4everlogo.svg" alt="photo" />
+          <h1>4ever</h1>
+        </div>
+        {/* <div className="Nav__content-socials">
           <span>
             <img src="./images/Main/Nav/instagram.svg" alt="photo" />
           </span>
@@ -15,7 +18,7 @@ export default function Nav() {
             <img src="./images/Main/Nav/wp.svg" alt="photo" />
           </span>
           <p>+995 555 55 55 55</p>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

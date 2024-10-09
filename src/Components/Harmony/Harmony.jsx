@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./Example.scss";
+import "./Harmony.scss";
 
-export default function Example() {
+export default function Harmony() {
   const targetDate = new Date("2025-01-09T11:00:00").getTime();
   const calculateTimeLeft = () => {
     const difference = targetDate - new Date();
@@ -27,14 +27,14 @@ export default function Example() {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <div className="ExampleFour">
-      <div className="ExampleFour__content">
-        <div className="ExampleFour__content-title">
+    <div className="Harmony">
+      <div className="Harmony__content">
+        <div className="Harmony__content-title">
           <h1>Կարեն & Սոնա</h1>
           <h2>Հարսանեկան հրավիրատոմս</h2>
         </div>
       </div>
-      <div className="ExampleFour__content-clock">
+      <div className="Harmony__content-clock">
         <h3>Մնաց</h3>
         {timeLeft.days !== undefined ? (
           <div>
