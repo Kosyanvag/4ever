@@ -1,14 +1,15 @@
 import Nav from "./Nav/Nav";
-import "./Project.scss";
-import Slider from "./Slider/ImageSlider";
-
+import Sliders from "./Sliders/Sliders";
 import Products from "./Products/Products";
-import Footer from "../Footer/Footer";
+
+import "./Project.scss";
+import Footer from "./../Footer/Footer";
+
 export default function Project() {
   return (
     <section>
       <Nav />
-      <Slider />
+      <Sliders />
       <Products />
       <Footer />
     </section>

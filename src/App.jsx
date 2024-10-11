@@ -6,6 +6,10 @@ import Radiance from "./Components/Radiance/Radiance";
 
 import Project from "./Components/MainProject/Project";
 
+import Nav from "./Components/MainProject/Nav/Nav";
+import Slider from "react-slick/lib/slider";
+import Velvet from "./Components/Velvet/Velvet";
+
 export default function App() {
   return (
     <div>
@@ -14,8 +18,9 @@ export default function App() {
       {/* <Serene /> */}
       {/* <Harmony/> */}
       {/* <Radiance/> */}
-
-      <Project />
+      <Velvet />
+      {/* <Project /> */}
+      {/* <Slider /> */}
     </div>
   );
 }

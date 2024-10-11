@@ -17,7 +17,7 @@
       align-items: start;
       gap: 10px;
       &-contacts {
-        color: var(--Ruluko);
+        color: var(--lightGold);
         h2 {
           font-weight: bold;
           margin: 10px 0;
@@ -51,7 +51,7 @@
       width: clamp(280px, 500px, 700px);
       padding: 10px;
       h2 {
-        color: var(--Ruluko);
+        color: var(--lightGold);
         margin-bottom: clamp(10px, 30px, 50px);
       }
       form {
@@ -63,7 +63,7 @@
           border-radius: 10px;
           padding: 10px 50px;
           color: var(--white);
-          background-color: var(--Ruluko);
+          background-color: var(--lightGold);
           cursor: pointer;
 
           font-size: 16px;
@@ -75,7 +75,7 @@
           border: 0;
           padding: 10px;
           color: var(--Ruluko);
-          border: 2px solid var(--Ruluko);
+          border: 2px solid var(--lightGold);
           background-color: var(--white);
           border-radius: 10px;
           cursor: pointer;
