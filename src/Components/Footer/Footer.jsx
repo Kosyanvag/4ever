@@ -34,22 +34,23 @@ export default function Footer() {
           <h2>Вы уже выбрали дизайн вашего приглашения ?</h2>
           <form action="https://api.web3forms.com/submit" method="POST">
             <select name="Design" required>
+              <option value="Выберите ваш дизайн" selected disabled>
+                Выберите ваш дизайн
+              </option>
               <option value="Serene">Serene</option>
               <option value="Bliss">Bliss</option>
               <option value="Eternal">Eternal</option>
               <option value="Pure">Pure</option>
               <option value="Euphoria">Euphoria</option>
-              <option value="Выберите ваш дизайн" selected disabled>
-                Выберите ваш дизайн
-              </option>
             </select>
+            <input type="text" placeholder="Имя Фамилия" name="Name" required />
             <input
               type="tel"
-              placeholder="Ваш номер телефона"
+              placeholder="Tелефон"
               name="PhoneNumber"
               required
             />
-            <input type="text" placeholder="Имя Фамилия" name="Name" required />
+
             <input
               type="hidden"
               name="access_key"
