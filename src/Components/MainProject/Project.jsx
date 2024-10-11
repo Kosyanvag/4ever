@@ -1,13 +1,14 @@
 import Nav from "./Nav/Nav";
-import "./Project.scss";
-import Slider from "./Slider/Slider";
-
+import Sliders from "./Sliders/Sliders";
 import Products from "./Products/Products";
+
+import "./Project.scss";
+
 export default function Project() {
   return (
     <section>
       <Nav />
-      <Slider />
+      <Sliders />
       <Products />
     </section>
   );
