@@ -18,8 +18,8 @@ export default function App() {
       {/* <Serene /> */}
       {/* <Harmony/> */}
       {/* <Radiance/> */}
-      <Velvet />
-      {/* <Project /> */}
+      {/* <Velvet /> */}
+      <Project />
       {/* <Slider /> */}
     </div>
   );
