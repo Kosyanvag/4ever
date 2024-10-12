@@ -15,11 +15,11 @@ export default function App() {
     <div>
       {/* <Eternal /> */}
       {/* <Bliss/> */}
-      {/* <Serene /> */}
+      <Serene />
       {/* <Harmony/> */}
       {/* <Radiance/> */}
       {/* <Velvet /> */}
-      <Project />
+      {/* <Project /> */}
       {/* <Slider /> */}
     </div>
   );
