@@ -1,15 +1,15 @@
-import "./Example.scss";
-export default function Example() {
+import "./Pure.scss";
+export default function Pure() {
   return (
-    <section className="example">
-      <div className="example__content">
-        <div className="example__content-title">
+    <section className="Pure">
+      <div className="Pure__content">
+        <div className="Pure__content-title">
           <h2>PURE LOVE</h2>
           <h1>Դավիթ և Նունե</h1>
           <p>12.12.2024</p>
         </div>
-        <div className="example__content-invite">
-          <div className="example__content-invite-left">
+        <div className="Pure__content-invite">
+          <div className="Pure__content-invite-left">
             <h2>ՍԻՐԵԼԻ ՀՅՈՒՐԵՐ</h2>
             <p>
               Մենք ցանկանում ենք Ձեզ հետ կիսել մեր կյանքի կարևորագույն օրերից
@@ -17,27 +17,27 @@ export default function Example() {
             </p>
             <span>12.12.2024</span>
           </div>
-          <div className="example__content-invite-right">
-            <img src="./images/imagesFour/man3.jpg" alt="photo" />
-            <img src="./images/imagesFour/man2.jpg" alt="photo" />
+          <div className="Pure__content-invite-right">
+            <img src="./images/Pure/man3.jpg" alt="photo" />
+            <img src="./images/Pure/man2.jpg" alt="photo" />
           </div>
         </div>
-        <div className="example__content-time">
+        <div className="Pure__content-time">
           <h5>Թայմինգ</h5>
-          <div className="example__content-time-box">
-            <div className="example__content-time-box-left">
+          <div className="Pure__content-time-box">
+            <div className="Pure__content-time-box-left">
               <h3>15:00</h3>
               <p>Պսակադրություն</p>
               <h4>Սուրբ Հովհաննես Մկրտիչ եկեղեցի</h4>
             </div>
-            <div className="example__content-time-box-right">
+            <div className="Pure__content-time-box-right">
               <h3>17:00</h3>
               <p>Հանդիսություն</p>
               <h4>Armenian Marriott Resturant Yerevan</h4>
             </div>
           </div>
-          <div className="example__content-time-bottom">
-            <div className="example__content-time-bottom-box">
+          <div className="Pure__content-time-bottom">
+            <div className="Pure__content-time-bottom-box">
               <h2>Ինչպես հասնել</h2>
               <h3>Սուրբ Հովհաննես Մկրտիչ եկեղեցի</h3>
               <p>
@@ -55,12 +55,12 @@ export default function Example() {
             </div>
           </div>
         </div>
-        <div className="example__content-location">
+        <div className="Pure__content-location">
           <h4>
             Ստորև տեղադրված քարտեզները ձեզ կօգնեն ավելի արագ <br />
             գտնել մեր միջոցառման գտնվելու վայրերը և միանալ մեզ:
           </h4>
-          <div className="example__content-location-box">
+          <div className="Pure__content-location-box">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.051240037279!2d44.62755537552028!3d40.27461196427759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406aa1cde06733bf%3A0xfc394fda1212f30a!2s12%20Russia%20Street%2C%20Abovyan%202204!5e0!3m2!1sen!2sam!4v1728148478559!5m2!1sen!2sam"
               width="400"
@@ -81,7 +81,7 @@ export default function Example() {
             ></iframe>
           </div>
         </div>
-        <div className="example__content-agenda">
+        <div className="Pure__content-agenda">
           <h3>Խնդրում ենք հաստատել Ձեր ներկայությունը միջոցառմանը</h3>
           <p>Սպասում ենք ձեր պատասխանին մինչև 01.12.2024</p>
           <form action="https://api.web3forms.com/submit" method="POST">

@@ -7,7 +7,9 @@ import Radiance from "./Components/Radiance/Radiance";
 import Project from "./Components/MainProject/Project";
 
 import Nav from "./Components/MainProject/Nav/Nav";
+
 import Slider from "react-slick/lib/slider";
+import Embrace from "./Components/Embrace/Embrace";
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
 
       <Project />
       {/* <Slider /> */}
+      {/* <Embrace/> */}
     </div>
   );
 }
+

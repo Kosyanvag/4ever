@@ -1,7 +1,9 @@
-import "./Example.scss";
+import "./Embrace.scss";
 import { useState, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
-export default function Example() {
+
+
+export default function Embrace() {
   const targetDate = new Date("2024-12-12T11:00:00").getTime();
   const calculateTimeLeft = () => {
     const difference = targetDate - new Date();
@@ -15,7 +17,6 @@ export default function Example() {
         seconds: Math.floor((difference / 1000) % 60),
       };
     }
-
     return timeLeft;
   };
 
@@ -29,18 +30,18 @@ export default function Example() {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <section className="example">
-      <div className="example__content">
-        <div className="example__content-title">
+    <div className="Embrace">
+      <div className="Embrace__content">
+        <div className="Embrace__content-title">
           <h1>Հարսանյաց Հրավիրատոմս</h1>
         </div>
-        <div className="example__content-for">
-          <img src="./images/imagesOne/owner.png" alt="photo" />
+        <div className="Embrace__content-for">
+          <img src="./images/Embrace/owner.png" alt="photo" />
         </div>
-        <div className="example__content-date">
+        <div className="Embrace__content-date">
           <p>Հարսանիքին մնաց</p>
           {timeLeft.days !== undefined ? (
-            <div className="example__content-date-time">
+            <div className="Embrace__content-date-time">
               <p>
                 {timeLeft.days} <br />
                 <span> Օր</span>
@@ -68,17 +69,17 @@ export default function Example() {
           )}
           <IoIosArrowDown />
         </div>
-        <div className="example__content-agenda">
-          <div className="example__content-agenda-box">
+        <div className="Embrace__content-agenda">
+          <div className="Embrace__content-agenda-box">
             <p>
               Սիրով սպասում ենք Ձեզ կիսելու մեզ հետ մեր կյանքի կարևոր և հիշարժան
               օրը
             </p>
             <h2>12|12|2024</h2>
-            <img src="./images/imagesOne/ring.svg" alt="photo" />
+            <img src="./images/Embrace/ring.svg" alt="photo" />
             <p>ՊՍԱԿԱԴՐՈՒԹՅԱՆ ԱՐԱՐՈՂՈՒԹՅՈՒՆ</p>
             <span>13:45</span>
-            <span>Սուրբ Սարգիս եկեղեցի</span>
+            <span>Սուրբ Խաջ եկեղեցի</span>
             <h6>ք․Ախալքալաք, Ազատության 55</h6>
             <button>
               <a href="https://maps.app.goo.gl/w4JdAa1iCnmTjT3N6">
@@ -86,21 +87,21 @@ export default function Example() {
               </a>
             </button>
           </div>
-          <div className="example__content-agenda-boxTwo">
-            <img src="./images/imagesOne/champagne.svg" alt="photo" />
+          <div className="Embrace__content-agenda-boxTwo">
+            <img src="./images/Embrace/champagne.svg" alt="photo" />
             <p>Հարսանյաց Հանդիսություն</p>
             <span>17:00</span>
             <span>«Իմպերատոր» ռեստորան</span>
-            <h6>ք․Ախալքալաք Աղմաշենեբելի 115</h6>
+            <h6>ք․Ախալքալաք, Աղմաշենեբելի 115</h6>
             <button>
               <a href="https://maps.app.goo.gl/dHxNENzZsUwpHAR76">
                 Ինչպես հասնել
               </a>
             </button>
           </div>
-          <div className="example__content-agenda-boxThree">
-            <img src="./images/imagesOne/heart.svg" alt="photo" />
-            <p>Սիրով սպասոօմ ենք Ձեզ</p>
+          <div className="Embrace__content-agenda-boxThree">
+            <img src="./images/Embrace/heart.svg" alt="photo" />
+            <p>Սիրով սպասում ենք Ձեզ</p>
             <br />
             <p>Խնդրում ենք հաստատել Ձեր ներկայությունը միջոցառմանը</p>
             <span>Սպասում ենք ձեր պատասխանին մինչև 01.12.2024</span>
@@ -112,7 +113,9 @@ export default function Example() {
               />
               <div className="data">
                 <select name="ՀյուրերիՔանակ" required>
-                  <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
+                  <option value="Նշեք հյուրերի քանակը" selected disabled>
+                    Նշեք հյուրերի քանակը
+                  </option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -123,9 +126,7 @@ export default function Example() {
                   <option value="8">8</option>
                   <option value="9">9</option>
                   <option value="10">10</option>
-                  <option value="Նշեք հյուրերի քանակը" selected disabled>
-                    Նշեք հյուրերի քանակը
-                  </option>
+                  <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
                 </select>
                 <input
                   type="text"
@@ -144,6 +145,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

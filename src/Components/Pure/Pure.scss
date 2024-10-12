@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100..900&display=swap");
 
-.example {
+.Pure {
   &__content {
     &-title {
-      background: url("../../../public/images/imagesFour/man.jpg") no-repeat
-        center center;
+      background: url("../../../public/images/Pure/man.jpg") no-repeat center
+        center;
       background-size: cover;
       width: 100vw;
       height: 100vh;
@@ -325,7 +325,7 @@ button {
 }
 
 @media (max-width: 480px) {
-  .example__content {
+  .Pure__content {
     &-invite {
       gap: 1rem;
     }
