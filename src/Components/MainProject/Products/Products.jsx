@@ -6,6 +6,7 @@ export default function Products() {
       img: "./images/Serene/1.jpg",
       title: "Serene",
       desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
+     
     },
     {
       id: 2,
@@ -39,7 +40,7 @@ export default function Products() {
     },
     {
       id: 6,
-      img: "./images/Harmony/wedding.jpg",
+      img: "./images/Harmony/wed.jpg",
       title: "Harmony",
       desc: '"Гармония - это слияние души и сердца в одном ритме."',
     },
@@ -52,6 +53,7 @@ export default function Products() {
             <img src={elem.img} alt="photo" />
             <h1>{elem.title}</h1>
             <p>{elem.desc}</p>
+            
           </div>
         ))}
       </div>

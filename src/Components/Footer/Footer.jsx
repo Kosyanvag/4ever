@@ -11,7 +11,7 @@ export default function Footer() {
               <img src="./images/Logo/instagram.svg" alt="insagram" />
             </a>
             <a href="">
-              <img src="./images/Logo/tg.svg" alt="telegram" />
+              <img src="./images/Logo/telegram.svg" alt="telegram" />
             </a>
             <a href="">
               <img src="./images/Logo/wp.svg" alt="whatsapp" />
