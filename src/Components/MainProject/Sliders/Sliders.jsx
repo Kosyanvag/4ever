@@ -9,7 +9,7 @@ const source = [
   },
   {
     id: 2,
-    img: "./images/Slider/canva2.jpg",
+    img: "./images/Slider/banner1.jpg",
   },
   {
     id: 3,

@@ -27,15 +27,21 @@ export default function Products() {
     },
     {
       id: 5,
-      img: "./images/Eternal/wedding.jpg",
-      title: "Eternal",
-      desc: '"Любовь, которая не знает конца."',
+      img: "./images/Embrace/background.jpg",
+      title: "Embrace",
+      desc: '"Тепло объятий, которые связывают сердца навеки."',
     },
     {
       id: 6,
-      img: "./images/Eternal/wedding.jpg",
-      title: "Eternal",
-      desc: '"Любовь, которая не знает конца."',
+      img: "./images/Embrace/wedding.jpg",
+      title: "Velvet",
+      desc: '"Мягкость и элегантность, как прикосновение любви."',
+    },
+    {
+      id: 6,
+      img: "./images/Harmony/wed.jpg",
+      title: "Harmony",
+      desc: '"Гармония - это слияние души и сердца в одном ритме."',
     },
   ];
   return (

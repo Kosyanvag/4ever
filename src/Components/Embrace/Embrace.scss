@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100..900&display=swap");
-.example {
-  background: url("../../../public/images/imagesOne/background.jpg") no-repeat;
+.Embrace {
+  background: url("../../../public/images/Embrace/background.jpg") no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -15,7 +15,7 @@
 
     &-title {
       h1 {
-        margin-top: 30px;
+        padding: 20px;
         font-size: 40px;
       }
       @media (max-width: 500px) {
@@ -166,6 +166,11 @@
             flex-direction: column;
             gap: 10px;
             margin-bottom: 20px;
+            input {
+              &::placeholder {
+                color: white;
+              }
+            }
 
             select,
             input[type="text"],
@@ -188,8 +193,9 @@
             padding: 15px 50px;
             border-radius: 30px;
             background-color: #a98e7d;
+            border: 1px solid white;
             color: white;
-            border: none;
+
             font-weight: bold;
             width: 200px;
             margin: 10px auto;

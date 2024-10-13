@@ -4,32 +4,26 @@ export default function Footer() {
     <footer className="Footer">
       <div className="Footer__content">
         <div className="Footer__content-logo">
-          <img src="./images/Logo/4everlogo.svg" alt="logo" />
-          <div className="Footer__content-logo-contacts">
-            <h2>Контакты</h2>
-            <ul>
-              <li>
-                E-MAIL:
-                <span>info.4ever.team@gmail.com</span>
-              </li>
-              <li>
-                Телефон։
-                <span>+995 599 99 99 99</span>
-              </li>
-            </ul>
-          </div>
+          <img src="./images/Logo/logo.jpg" alt="logo" />
+          
           <div className="Footer__content-logo-socials">
             <a href="https://www.instagram.com/4ever.ge/">
               <img src="./images/Logo/instagram.svg" alt="insagram" />
             </a>
             <a href="">
-              <img src="./images/Logo/tg.svg" alt="telegram" />
+              <img src="./images/Logo/telegram.svg" alt="telegram" />
             </a>
             <a href="">
               <img src="./images/Logo/wp.svg" alt="whatsapp" />
             </a>
           </div>
         </div>
+        <div className="Footer__content-logo-contacts">
+          <h2>О нас</h2>
+          <h2>О нас</h2>
+          <h2>О нас</h2>
+           
+          </div>
         <div className="Footer__content-order">
           <h2>Вы уже выбрали дизайн вашего приглашения ?</h2>
           <form action="https://api.web3forms.com/submit" method="POST">
