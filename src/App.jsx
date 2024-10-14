@@ -1,6 +1,8 @@
-import Eternal from "./Components/Eternal/Eternal";
-import Bliss from "./Components/Bliss/Bliss";
 import Serene from "./Components/Serene/Serene";
+import Bliss from "./Components/Bliss/Bliss";
+import Eternal from "./Components/Eternal/Eternal";
+import Pure from "./Components/Pure/Pure";
+import Embrace from "./Components/Embrace/Embrace";
 import Harmony from "./Components/Harmony/Harmony";
 import Radiance from "./Components/Radiance/Radiance";
 
@@ -8,21 +10,21 @@ import Project from "./Components/MainProject/Project";
 
 import Nav from "./Components/MainProject/Nav/Nav";
 
-import Slider from "react-slick/lib/slider";
-import Embrace from "./Components/Embrace/Embrace";
+
 
 export default function App() {
   return (
     <div>
-      {/* <Eternal /> */}
-      {/* <Bliss/> */}
       {/* <Serene/> */}
+      {/* <Bliss/> */}
+      {/* <Eternal /> */}
+      {/* <Pure/> */}
+      {/* <Embrace/> */}
+
       {/* <Harmony/> */}
       {/* <Radiance/> */}
 
       <Project />
-      {/* <Slider /> */}
-      {/* <Embrace/> */}
     </div>
   );
 }

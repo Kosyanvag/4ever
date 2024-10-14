@@ -3,31 +3,26 @@ import "./Sliders.scss"
 import Slider from 'react-slick/lib/slider';
 
 
-
-
 const source = [{
   id: 1,
-  img: "./images/Slider/canva.jpg"
+  img: "./images/Sliders/canva.jpg"
   
  
 
 },
 {
   id: 2,
-   img: "./images/Slider/banner1.jpg"
+   img: "./images/Sliders/banner1.jpg"
 
 },
 {
   id: 3,
-   img: "./images/Slider/canva3.jpg"
+   img: "./images/Sliders/canva3.jpg"
 
 },
 
 
 ]
-
-
-
 
 
 
@@ -42,7 +37,7 @@ export default function Sliders() {
     arrows: false,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     
   };
   return (
@@ -57,9 +52,7 @@ export default function Sliders() {
           );
         })}
       </Slider>
-      
       </div>
-
     </div>
   )
 }
