@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Sliders.scss";
 import Slider from "react-slick/lib/slider";
 
 const source = [
   {
     id: 1,
-    img: "./images/Slider/canva.jpg",
+    img: "./images/Sliders/canva.jpg",
   },
   {
     id: 2,
-    img: "./images/Slider/banner1.jpg",
+    img: "./images/Sliders/banner1.jpg",
   },
   {
     id: 3,
-    img: "./images/Slider/canva3.jpg",
+    img: "./images/Sliders/canva3.jpg",
   },
 ];
 

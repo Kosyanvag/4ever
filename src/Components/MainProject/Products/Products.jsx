@@ -46,7 +46,7 @@ const source = [
   },
   {
     id: 6,
-    img: "./images/Velvet/wedding.jpg",
+    img: "./images/Velvet/2.jpg",
     title: "Velvet",
     desc: '"Мягкость и элегантность, как прикосновение любви."',
     price: "150 Gel",
@@ -84,13 +84,6 @@ export default function Products() {
   return (
     <div className="Products">
       <div className="Products__content">
-        {data.map((elem) => (
-          <div key={elem.id}>
-            <img src={elem.img} alt="photo" />
-            <h1>{elem.title}</h1>
-            <p>{elem.desc}</p>
-          </div>
-        ))}
         <Pagination total={total} />
         <ReactPaginate
           breakLabel="..."
