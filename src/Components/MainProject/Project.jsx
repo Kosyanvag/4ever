@@ -6,13 +6,11 @@ import Footer from "../Footer/Footer";
 
 import "./Project.scss";
 
-
-
 export default function Project() {
   return (
     <section>
       <Nav />
-      <About/>
+      <About />
       <Sliders />
       <Products />
       <Footer />
