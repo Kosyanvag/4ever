@@ -20,6 +20,8 @@ export default function Harmony() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
@@ -33,57 +35,59 @@ export default function Harmony() {
           <h1>Կարեն & Սոնա</h1>
           <h3>Հարսանիքին մնացել է</h3>
           <div>
-          {timeLeft.days !== undefined ? (
-            <div>
-              <p>
-                {timeLeft.days} <br /> Օր
-              </p>
-              <p>
-                {timeLeft.hours} <br /> Ժամ
-              </p>
-              <p>
-                {timeLeft.minutes} <br />
-                Րոպե
-              </p>
-              <p>
-                {timeLeft.seconds} <br /> Վայրկյան
-              </p>
-            </div>
-          ) : (
-            <div>
-              <p>O</p>
-              <p>O</p>
-              <p>O</p>
-              <p>O</p>
-            </div>
-          )}
+            {timeLeft.days !== undefined ? (
+              <div>
+                <p>
+                  {timeLeft.days} <br /> Օր
+                </p>
+                <p>
+                  {timeLeft.hours} <br /> Ժամ
+                </p>
+                <p>
+                  {timeLeft.minutes} <br />
+                  Րոպե
+                </p>
+                <p>
+                  {timeLeft.seconds} <br /> Վայրկյան
+                </p>
+              </div>
+            ) : (
+              <div>
+                <p>O</p>
+                <p>O</p>
+                <p>O</p>
+                <p>O</p>
+              </div>
+            )}
           </div>
         </div>
         <div className="Harmony__content-about">
-          <p>Սիրով հրավիրում ենք Ձեզ կիսելու մեզ հետ մեր կյանքի կառևոր և հիշարժան օրը <br /> <br /> Սպասում ենք Ձեզ մեր հարսանիքին </p>
+          <p>
+            Սիրով հրավիրում ենք Ձեզ կիսելու մեզ հետ մեր կյանքի կառևոր և հիշարժան
+            օրը <br /> <br /> Սպասում ենք Ձեզ մեր հարսանիքին{" "}
+          </p>
           <h2>24 Դեկտեմբեր 2024</h2>
-          
         </div>
         <div className="Harmony__content-timing">
-        <h3>Ծրագիր</h3>
-        <div className="Harmony__content-timing-start">
-          <div>
-          <img src="./images/Harmony/hall.png" alt="hall" />
-            <h2>14:20</h2>
-            <h2>Պսակադրություն</h2>
-            <p>Սուրբ Սարգիս եկեղեցի</p>
-            <button>Ինչպես հասնել</button>
+          <h3>Ծրագիր</h3>
+          <div className="Harmony__content-timing-start">
+            <div>
+              <img src="./images/Harmony/hall.png" alt="hall" />
+              <h2>14:20</h2>
+              <h2>Պսակադրություն</h2>
+              <p>Սուրբ Սարգիս եկեղեցի</p>
+              <button>Ինչպես հասնել</button>
+            </div>
           </div>
-        </div>
-        <div className="Harmony__content-timing-end">
-          <div>
-          <img src="./images/Harmony/banquet.png" alt="banquet" />
-            <h2>17:00</h2>
-            <h2>Հարսանյաց հանդիսություն</h2>
-            <p>"Մորենա" ռեստորանային համալիր</p>
-            <button>Ինչպես հասնել</button>
+          <div className="Harmony__content-timing-end">
+            <div>
+              <img src="./images/Harmony/banquet.png" alt="banquet" />
+              <h2>17:00</h2>
+              <h2>Հարսանյաց հանդիսություն</h2>
+              <p>"Մորենա" ռեստորանային համալիր</p>
+              <button>Ինչպես հասնել</button>
+            </div>
           </div>
-        </div>
         </div>
         <div className="Harmony__content-photo">
           <img src="./images/Harmony/1.jpg" alt="" />

@@ -1,4 +1,5 @@
 import "./Pagination.scss";
+import { Link } from "react-router-dom";
 
 export default function Pagination({ total }) {
   return (
@@ -8,7 +9,9 @@ export default function Pagination({ total }) {
           <div className="Pagination__content" key={elem.id}>
             <div key={elem.id}>
               <img src={elem.img} alt="photo" />
-              <h1>{elem.title}</h1>
+              <Link to={`/${elem.title.toLowerCase()}`}>
+                <h1>{elem.title}</h1>
+              </Link>
               <p>{elem.desc}</p>
               <div>
                 <button>{elem.price}</button>

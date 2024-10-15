@@ -1,7 +1,10 @@
-import React from "react";
+import { useEffect } from "react";
 import "./Radiance.scss";
 
 export default function Radiance() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="Radiance">
       <div className="Radiance__content">

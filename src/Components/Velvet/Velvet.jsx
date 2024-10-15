@@ -1,6 +1,10 @@
 import "./Velvet.scss";
+import { useEffect } from "react";
 
 export default function Velvet() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="Velvet">
       <div className="Velvet__content">

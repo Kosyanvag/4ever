@@ -1,5 +1,9 @@
 import "./Pure.scss";
+import { useEffect } from "react";
 export default function Pure() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="Pure">
       <div className="Pure__content">
