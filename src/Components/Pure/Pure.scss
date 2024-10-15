@@ -2,9 +2,10 @@
 
 .Pure {
   &__content {
+    background-color: whitesmoke;
+    color: rgb(126, 123, 123);
     &-title {
-      background: url("../../../public/images/Pure/man.jpg") no-repeat center
-        center;
+      background: url("../../../public/images/Pure/man.jpg") no-repeat center;
       background-size: cover;
       width: 100vw;
       height: 100vh;
@@ -62,18 +63,22 @@
       gap: 10%;
       justify-content: center;
       padding: 0 2rem;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
 
       &-left {
         width: 35%;
+        margin-top: 100px;
+
         h2 {
           font-size: 2.5rem;
           font-weight: 300;
+          margin: 20px 0;
         }
         p {
           font-size: 1.5rem;
           width: 100%;
           line-height: 2rem;
+          margin-bottom: 20px;
         }
         span {
           font-size: 2.5rem;
@@ -155,6 +160,8 @@
     }
 
     &-time {
+      text-align: center;
+
       h5 {
         text-align: center;
         font-size: calc(1.5rem + 2vw);
@@ -167,7 +174,7 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 0 1rem;
-        gap: 2rem;
+        gap: 5em;
 
         &-left,
         &-right {
@@ -189,8 +196,8 @@
 
       &-bottom {
         margin-top: 50px;
-        background: url("../../../public/images/imagesFive/wedding.jpg")
-          no-repeat center center;
+        background: url("../../../public/images/Pure/wedding.jpg") no-repeat
+          center center;
         background-size: cover;
         width: 100vw;
         height: 100vh;
@@ -199,7 +206,7 @@
         justify-content: center;
 
         &-box {
-          background-color: white;
+          background-color: whitesmoke;
           padding: 2rem;
           max-width: 700px;
           text-align: center;
@@ -207,20 +214,18 @@
           h2 {
             font-size: calc(2rem + 1vw);
             font-weight: 300;
-            margin: 0 auto;
+            margin: 30px auto;
           }
           h3 {
             font-size: calc(1rem + 0.5vw);
-            font-weight: bold;
-            margin: 10px auto 0;
+            margin: 20px auto 0;
           }
           p {
-            margin: 10px auto 0;
-            font-weight: 300;
+            margin: 20px auto 0;
           }
           button {
             padding: 1rem 2.5rem;
-            background-color: black;
+            background-color: rgb(126, 123, 123);
             color: white;
             border: none;
             font-weight: bold;
@@ -250,7 +255,7 @@
 
         iframe {
           width: 80%;
-          max-width: 900px;
+          max-width: 800px;
           max-height: 500px;
           &:focus {
             outline: none;
@@ -294,7 +299,9 @@
             background-color: transparent;
             font-size: 20px;
             border: 0;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid rgb(126, 123, 123);
+            color: rgb(126, 123, 123);
+
             &:focus {
               outline: none;
             }
@@ -303,7 +310,7 @@
 
         button {
           padding: 1rem 2.5rem;
-          background-color: black;
+          background-color: rgb(126, 123, 123);
           color: white;
           border: none;
           font-weight: bold;
@@ -315,15 +322,6 @@
   }
 }
 
-button {
-  cursor: pointer;
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-}
-
 @media (max-width: 480px) {
   .Pure__content {
     &-invite {
@@ -332,6 +330,7 @@ button {
 
     &-location,
     &-agenda {
+      
       h5,
       h3,
       p {
