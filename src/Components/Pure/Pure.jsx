@@ -22,8 +22,8 @@ export default function Pure() {
             <span>12.12.2024</span>
           </div>
           <div className="Pure__content-invite-right">
-            <img src="./images/Pure/man3.jpg" alt="photo" />
             <img src="./images/Pure/man2.jpg" alt="photo" />
+            <img src="./images/Pure/man3.jpg" alt="photo" />
           </div>
         </div>
         <div className="Pure__content-time">
@@ -96,7 +96,9 @@ export default function Pure() {
             />
             <div className="data">
               <select name="ՀյուրերիՔանակ" required>
-                <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
+                <option value="Նշեք հյուրերի քանակը" selected disabled>
+                  Նշեք հյուրերի քանակը
+                </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -107,9 +109,7 @@ export default function Pure() {
                 <option value="8">8</option>
                 <option value="9">9</option>
                 <option value="10">10</option>
-                <option value="Նշեք հյուրերի քանակը" selected disabled>
-                  Նշեք հյուրերի քանակը
-                </option>
+                <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
               </select>
               <input
                 type="text"
@@ -119,11 +119,11 @@ export default function Pure() {
               <input
                 type="number"
                 name="Հեռախոսահամար"
-                placeholder="Ձեր Հեռախոսահամարը"
+                placeholder="Ձեր hեռախոսահամարը"
                 required
               />
             </div>
-            <button>Ուղղարկել</button>
+            <button>Ուղարկել</button>
           </form>
         </div>
       </div>

@@ -8,12 +8,12 @@ import "./Project.scss";
 
 export default function Project() {
   return (
-    <section>
+    <div>
       <Nav />
       <About />
       <Sliders />
       <Products />
       <Footer />
-    </section>
+    </div>
   );
 }

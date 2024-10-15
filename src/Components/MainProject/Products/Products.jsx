@@ -49,7 +49,7 @@ const source = [
     img: "./images/Velvet/2.jpg",
     title: "Velvet",
     desc: '"Мягкость и элегантность, как прикосновение любви."',
-    price: "150 Gel",
+    price: "149 Gel",
     order: "Заказать",
   },
   {
@@ -68,6 +68,7 @@ const source = [
     price: " Gel",
     order: "Заказать",
   },
+  
 ];
 
 export default function Products() {
