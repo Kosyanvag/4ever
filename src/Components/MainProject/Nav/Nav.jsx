@@ -8,10 +8,10 @@ export default function Nav() {
         </div>
         <div className="Nav__content-block">
           <ul>
-            <li>Заказать</li>
-            <li>Новости</li>
-            <li>Приглашения</li>
-            <li>О нас</li>
+            <li><a href="#about">Заказать</a></li>
+            <li ><a href="#sliders">Новости</a></li>
+            <li><a href="#products">Приглашения</a></li>
+            <li><a href="#footer">О нас</a></li>
           </ul>
         </div>
         <div className="Nav__content-socials">

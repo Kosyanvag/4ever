@@ -3,17 +3,18 @@ import "./Sliders.scss";
 import Slider from "react-slick/lib/slider";
 
 const source = [
+  
   {
     id: 1,
-    img: "./images/Sliders/canva.jpg",
+    img: "./images/Sliders/day.png",
   },
   {
     id: 2,
-    img: "./images/Sliders/banner1.jpg",
+    img: "./images/Sliders/autumn.png",
   },
   {
     id: 3,
-    img: "./images/Sliders/canva3.jpg",
+    img: "./images/Sliders/price.png",
   },
 ];
 
@@ -31,7 +32,7 @@ export default function Sliders() {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="Sliders">
+    <div className="Sliders" id="sliders">
       <div className="Sliders__content">
         <Slider {...settings}>
           {data.map((elem) => {

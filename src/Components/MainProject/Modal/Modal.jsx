@@ -2,11 +2,6 @@ import React from "react";
 import "./Modal.scss";
 
 export default function Modal({ cancelModal }) {
-
-
-
-
-
   return (
     <div className="Modal">
       <div className="Modal__content">
@@ -14,7 +9,6 @@ export default function Modal({ cancelModal }) {
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
         <h2>Оформление заказа </h2>
-
         <form action="https://api.web3forms.com/submit" method="POST">
           <select name="Design" required>
             <option value="Выберите ваш дизайн" selected disabled required>

@@ -82,7 +82,7 @@ export default function Products() {
   };
 
   return (
-    <div className="Products">
+    <div className="Products" id="products">
       <div className="Products__content">
         <Pagination total={total} />
         <ReactPaginate

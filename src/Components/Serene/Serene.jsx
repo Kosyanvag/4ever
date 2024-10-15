@@ -70,7 +70,7 @@ export default function Serene() {
         </div>
         <div className="Serene__content-about">
           <div className="Serene__content-about-left">
-            <h2>ՍԻՌԵԼԻ ՀՅՈՒՐԵՐ</h2>
+            <h2>ՍԻՐԵԼԻ ՀՅՈՒՐԵՐ</h2>
             <p>
               Մենք ցանկանում ենք Ձեզ հետ կիսել մեր կյանքի կարևորագույն օրերից
               մեկը։ Մեձ ուրախությամբ հրավիրում ենք Ձեզ մեր հարսանիքին։
@@ -139,6 +139,20 @@ export default function Serene() {
           <p>Կսպասենք պատասխանի մինչև 01.01.2025</p>
 
           <form action="https://api.web3forms.com/submit" method="POST">
+            <select name="Հյուրերի քանակ" required>
+              <option value="Հյուրերի քանակ" selected disabled>
+                Նշեք հյուրերի քանակը
+              </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="Չենք կարողանա գալ">Չեմ կարողանա գալ</option>
+            </select>
             <input
               type="hidden"
               name="access_key"
@@ -156,23 +170,8 @@ export default function Serene() {
               name="Հեռախոսահամար"
               required
             />
-            <select name="Հյուրերի քանակ" required>
-              <option value="Հյուրերի քանակ" selected disabled>
-                Նշեք հյուրերի քանակը
-              </option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="Չենք կարողանա գալ">Չեմ կարողանա գալ</option>
-            </select>
             <button>Ուղարկել</button>
           </form>
-
           <h2>Սիրով սպասում ենք Ձեզ</h2>
         </div>
       </div>

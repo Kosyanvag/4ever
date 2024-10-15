@@ -12,7 +12,7 @@ export default function About() {
     }
    
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className="About__content">
         <div className="About__content-left">
             

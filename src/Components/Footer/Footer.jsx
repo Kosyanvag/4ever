@@ -1,7 +1,7 @@
 import "./Footer.scss";
 export default function Footer() {
   return (
-    <footer className="Footer">
+    <footer className="Footer" id="footer">
       <div className="Footer__content">
         <div className="Footer__content-logo">
           <img src="./images/Logo/logo.jpg" alt="logo" />

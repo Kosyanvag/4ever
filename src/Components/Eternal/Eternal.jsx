@@ -129,8 +129,21 @@ export default function Eternal() {
         <div className="Eternal__content-contact">
           <h2>Пожалуйста, подтвердите своё присутствие на мероприятии</h2>
           <p>Ожидаем ваш ответ до 08.12.2024</p>
-
           <form action="https://api.web3forms.com/submit" method="POST">
+            <select name="Кол-во гостей" required>
+              <option value="Укажите кол-во гостей" selected disabled>
+                Укажите кол-во гостей
+              </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="Мы не сможем прийти">Мы не сможем прийти</option>
+            </select>
             <input
               type="hidden"
               name="access_key"
@@ -148,20 +161,6 @@ export default function Eternal() {
               name="Телефон"
               required
             />
-            <select name="Кол-во гостей" required>
-              <option value="Укажите кол-во гостей" selected disabled>
-                Укажите кол-во гостей
-              </option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="">6</option>
-              <option value="">7</option>
-              <option value="">8</option>
-              <option value="Мы не сможем прийти">Мы не сможем прийти</option>
-            </select>
             <button>Отправить</button>
           </form>
           <h4>Мы будем счастливы видеть вас!</h4>
