@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=League+Script&family=Qwitcher+Grypen:wght@400;700&family=Sevillana&display=swap");
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 .Pagination {
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +30,9 @@
         font-family: "League Script";
         color: var(--green);
       }
+      a {
+        text-decoration: none;
+      }
       p {
         width: 90%;
         height: 85px;
@@ -39,16 +40,15 @@
         margin: 0 auto;
         font-family: "Bellota Text";
         color: var(--lightGold);
-
       }
-      > div{
+      > div {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
         font-family: "Bellota Text";
 
-        button{
+        button {
           width: 120px;
           height: 40px;
           font-size: 16px;
@@ -58,22 +58,17 @@
           scale: 1;
           font-family: "Bellota Text";
         }
-        button:nth-child(1){
-          background-color: var(--lightGold);  
-             
+        button:nth-child(1) {
+          background-color: var(--lightGold);
         }
-        button:nth-child(2){
-          background-color: var(--green); 
-          &:hover{
+        button:nth-child(2) {
+          background-color: var(--green);
+          &:hover {
             scale: 0.94;
             transition: 0.2s linear;
-          }   
-
-
-
+          }
         }
-        
+      }
     }
-  }
   }
 }

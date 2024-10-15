@@ -2,7 +2,6 @@ import "./Embrace.scss";
 import { useState, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
-
 export default function Embrace() {
   const targetDate = new Date("2024-12-12T11:00:00").getTime();
   const calculateTimeLeft = () => {
@@ -23,6 +22,8 @@ export default function Embrace() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);

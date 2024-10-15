@@ -16,6 +16,7 @@
     padding: 10px 160px;
     font-family: "Chakra Petch";
     border-bottom: 5px solid var(--lightGold);
+
     
 
     &-logo {
@@ -36,10 +37,10 @@
         display: flex;
         gap: 60px;
         font-family: "Bellota Text";
+       
 
         li {
           font-size: 22px;
-          
           font-weight: 800;
           a{
             color: var(--lightGold);
@@ -47,9 +48,9 @@
 
           }
 
-          &:active {
-            background-color: rgb(199, 144, 71);
-            padding: 10px;
+          a.active {
+            color: red;
+            padding: 8px;
             border-radius: 8px;
             transition: 0.5s;
           }
@@ -63,11 +64,15 @@
         border-radius: 30px;
         border: 3px solid var(--lightGold);
         font-family: "Bellota Text";
+
         a {
           color: var(--lightGold);
           text-decoration: none;
+          
         }
+        
       }
     }
   }
 }
+
