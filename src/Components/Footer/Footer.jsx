@@ -7,11 +7,11 @@ export default function Footer() {
           <img src="./images/Logo/logo.jpg" alt="logo" />
         </div>
         <div className="Footer__content-logo-contacts">
-          <ul>
-            <li>Заказать</li>
-            <li>Новости</li>
-            <li>Приглашения</li>
-            <li>О нас</li>
+        <ul>
+            <li><a href="#about" >Заказать</a></li>
+            <li><a href="#sliders" >Новости</a></li>
+            <li><a href="#products" >Приглашения</a></li>
+            <li><a href="#footer" >О нас</a></li>
           </ul>
         </div>
         <div className="Footer__content-logo-support">
