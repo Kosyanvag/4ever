@@ -18,10 +18,13 @@ export default function Modal({ cancelModal }) {
             <option value="Bliss">Bliss</option>
             <option value="Eternal">Eternal</option>
             <option value="Pure">Pure</option>
-            <option value="Euphoria">Euphoria</option>
+            <option value="Embrace">Embrace</option>
+            <option value="Velvet">Velvet</option>
+            <option value="Harmony">Harmony</option>
+            <option value="Radiance">Radiance</option>
           </select>
           <input type="text" placeholder="Имя Фамилия" name="Name" required />
-          <input type="tel" placeholder="Tелефон" name="PhoneNumber" required />
+          <input type="number" placeholder="Tелефон" name="PhoneNumber" required />
 
           <input
             type="hidden"
