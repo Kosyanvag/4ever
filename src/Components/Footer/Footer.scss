@@ -44,7 +44,7 @@
         width: 300px;
       }
       &-contacts {
-        color: var(--lightGold);
+   
         font-family: "Bellota Text";
         ul {
           display: flex;
@@ -52,6 +52,11 @@
           gap: 12px;
           li {
             font-size: 22px;
+          }
+          a{
+            color: var(--lightGold);
+            text-decoration: none;
+
           }
         }
       }

@@ -33,12 +33,13 @@ li.selected {
   scale: 1;
   outline: 3px solid var(--lightGold);
   outline-offset: 5px;
+  a {
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+  }
 }
-a {
-  width: 50px;
-  border-radius: 50%;
-  text-align: center;
-}
+
 .navigation {
   display: flex;
   justify-content: center;
@@ -67,7 +68,7 @@ li.selected {
   outline: 3px solid var(--lightGold);
   outline-offset: 5px;
 }
-a {
-  width: 50px;
-  border-radius: 50%;
-}
+// a {
+//   width: 50px;
+//   border-radius: 50%;
+// }
