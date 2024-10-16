@@ -1,4 +1,3 @@
-import React from "react";
 import "./Modal.scss";
 
 export default function Modal({ cancelModal }) {
@@ -24,7 +23,12 @@ export default function Modal({ cancelModal }) {
             <option value="Radiance">Radiance</option>
           </select>
           <input type="text" placeholder="Имя Фамилия" name="Name" required />
-          <input type="number" placeholder="Tелефон" name="PhoneNumber" required />
+          <input
+            type="number"
+            placeholder="Tелефон"
+            name="PhoneNumber"
+            required
+          />
 
           <input
             type="hidden"
