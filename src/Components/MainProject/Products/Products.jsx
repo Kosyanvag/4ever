@@ -68,7 +68,14 @@ const source = [
     price: " Gel",
     order: "Заказать",
   },
-  
+  {
+    id: 9,
+    img: "./images/Siluette/Wedding.jpg",
+    title: "Siluette",
+    desc: '"Siluette — изысканная деталь вашего идеального дня."',
+    price: " Gel",
+    order: "Заказать",
+  },
 ];
 
 export default function Products() {
