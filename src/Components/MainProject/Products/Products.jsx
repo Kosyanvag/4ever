@@ -65,7 +65,7 @@ const source = [
     img: "./images/Radiance/wedding.jpg",
     title: "Radiance",
     desc: '"Сияние, которое отражает чистоту и красоту вашей любви."',
-    price: " Gel",
+    price: " 159 Gel",
     order: "Заказать",
   },
   {
