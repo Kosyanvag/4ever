@@ -69,6 +69,15 @@ const source = [
     order: "Заказать",
   },
   
+  {
+    id: 9,
+    img: "./images/Spark/wedding.jpg",
+    title: "Spark",
+    desc: '"Искра, с которой начинается ваше вечное пламя любви"',
+    price: " 129 Gel",
+    order: "Заказать",
+  },
+  
 ];
 
 export default function Products() {

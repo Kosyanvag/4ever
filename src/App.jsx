@@ -26,6 +26,7 @@ import Embrace from "./Components/Embrace/Embrace";
 import Velvet from "./Components/Velvet/Velvet";
 import Harmony from "./Components/Harmony/Harmony";
 import Radiance from "./Components/Radiance/Radiance";
+import Spark from "./Components/Spark/Spark";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/velvet" element={<Velvet />} />
         <Route path="/harmony" element={<Harmony />} />
         <Route path="/radiance" element={<Radiance />} />
+        <Route path="/spark" element={<Spark />} />
       </Routes>
     </div>
   );
