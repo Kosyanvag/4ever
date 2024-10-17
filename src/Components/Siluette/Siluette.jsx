@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 import "./Siluette.scss";
 export default function Siluette() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="Siluette">
       <div className="Siluette__content">
@@ -11,11 +16,12 @@ export default function Siluette() {
           </div>
           <div className="Siluette__content-title-photo">
             <div className="Siluette__content-title-photo-circle">
-              {/* <img src="./images/Siluette/Wedding.jpg" alt="photo" /> */}
-              <h2>
-                25|08 <br />
-                2024
-              </h2>
+              <div className="Siluette__content-title-photo-circle-text">
+                <h2>
+                  25|08 <br />
+                  2024
+                </h2>
+              </div>
             </div>
           </div>
         </div>
@@ -35,8 +41,9 @@ export default function Siluette() {
           </div>
         </div>
         <div className="Siluette__content-timing">
+          <img src="./images/Siluette/Timing.svg" alt="photo" />
           <div className="Siluette__content-timing-box">
-            <img src="./images/Siluette/Timing.svg" alt="photo" />
+            <img src="./images/Siluette/decor.png" alt="photo" />
             <ul>
               <li>
                 <span>12:00</span>Պսակադրություն
