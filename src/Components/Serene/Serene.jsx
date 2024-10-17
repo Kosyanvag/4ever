@@ -33,6 +33,7 @@ export default function Serene() {
       <div className="Serene__content">
         <div className="Serene__content-title">
           <div className="Serene__content-title-left">
+            
             <h2>ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԵՐ</h2>
             <h1>A & M</h1>
             <h3>

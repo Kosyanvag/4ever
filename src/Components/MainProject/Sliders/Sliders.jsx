@@ -16,6 +16,14 @@ const source = [
     id: 3,
     img: "./images/Sliders/price.png",
   },
+  {
+    id: 4,
+    img: "./images/Sliders/ecology.png",
+  },
+  {
+    id: 5,
+    img: "./images/Sliders/insta.png",
+  },
 ];
 
 export default function Sliders() {
