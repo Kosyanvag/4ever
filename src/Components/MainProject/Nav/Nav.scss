@@ -1,18 +1,220 @@
+// @import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=League+Script&family=Qwitcher+Grypen:wght@400;700&family=Sevillana&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+// .Nav {
+//   background-color: var(--green);
+//   color: var(--gold);
+//   position: fixed;
+//   z-index: 999;
+//   width: 100%;
+
+//   &__content {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 10px 160px;
+//     font-family: "Chakra Petch";
+//     border-bottom: 5px solid var(--lightGold);
+
+//     &-logo {
+//       display: flex;
+//       align-items: center;
+//       gap: 20px;
+//       img {
+//         width: 140px;
+//       }
+//       h1 {
+//         font-size: 24px;
+//         text-transform: uppercase;
+//         color: var(--green);
+//       }
+//       svg {
+//         display: none;
+//       }
+//     }
+//     &-block {
+//       ul {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 60px;
+//         height: 64px;
+//         font-family: "Bellota Text";
+
+//         li {
+//           width: auto;
+//           height: 50px;
+//           font-size: 20px;
+//           font-weight: 800;
+//           padding: 10px;
+//           margin-top: 10px;
+
+//           a {
+//             color: var(--lightGold);
+//             text-decoration: none;
+//           }
+
+//           a.active {
+//             width: 140px;
+//             height: 60px;
+//             background-color: var(--lightGold);
+//             color: var(--green);
+//             padding: 8px;
+//             border-radius: 12px;
+//             transition: 0.2s linear;
+//           }
+//         }
+//       }
+//     }
+//     &-socials {
+//       p {
+//         background-color: var(--green);
+//         padding: 12px 18px;
+//         border-radius: 12px;
+//         border: 3px solid var(--lightGold);
+//         font-family: "Bellota Text";
+
+//         a {
+//           color: var(--lightGold);
+//           text-decoration: none;
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1300px) {
+//     &__content {
+//       padding: 10px 50px;
+//       &-block {
+//         ul {
+//           gap: 30px;
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1100px) {
+//     &__content {
+//       padding: 10px 20px;
+//       &-block {
+//         ul {
+//           gap: 10px;
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 840px) {
+//     &__content {
+//       padding: 10px 20px;
+//       &-logo {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         width: 100%;
+//         svg {
+//           display: block;
+//           font-size: 30px;
+//          margin-right: 10px;
+//           color: var(--lightGold);
+//           cursor: pointer;
+//         }
+//       }
+//       &-block {
+//         ul {
+//           display: none;
+//         }
+//       }
+//       &-socials {
+//         p {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+// }
+// .burgerMenu {
+//   position: fixed;
+//   // width: 50%;
+//   // top: 90px;
+//   right: 0%;
+//   height: 100vh;
+//   background-color: var(--green);
+//   border-left: 5px solid var(--lightGold);
+//   z-index: 1;
+//   padding: 10px;
+
+//   &__content {
+//     width: 100%;
+//     &-header {
+//       img {
+//         position: relative;
+//         left: 85%;
+//         width: 20px;
+//         cursor: pointer;
+//       }
+//     }
+//     &-links {
+//       width: 100%;
+//       ul {
+//         // text-transform: uppercase;
+//         // text-align: center;
+//         // width: 100%;
+//         font-family: "Bellota Text";
+//         li {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           list-style: none;
+//           width: 100%;
+//           height: 50px;
+//           cursor: pointer;
+//           a {
+//             text-decoration: none;
+//             font-size: 14px;
+//             padding: 0 20px;
+//             color: var(--lightGold);
+//           }
+//         }
+//       }
+//     }
+//   }
+//   &__header {
+//     text-align: right;
+//     margin-right: 20px;
+//     margin-top: 38px;
+//     width: 100%;
+//   }
+//   &__close {
+//     svg {
+//       font-size: 40px;
+//       padding: 0 10px;
+//       color: var(--textColor);
+//       cursor: pointer;
+//       &:hover {
+//         opacity: 0.5;
+//         transition: 0.5s;
+//         color: var(--mainColor);
+//       }
+//     }
+//   }
+
+// }
+
 @import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=League+Script&family=Qwitcher+Grypen:wght@400;700&family=Sevillana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+
 .Nav {
   background-color: var(--green);
   color: var(--gold);
   position: fixed;
   z-index: 999;
   width: 100%;
+  transition: background-color 0.3s ease-in;
 
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 160px;
+    padding: 10px 160px; // Отступы
     font-family: "Chakra Petch";
     border-bottom: 5px solid var(--lightGold);
 
@@ -21,17 +223,18 @@
       align-items: center;
       gap: 20px;
       img {
-        width: 160px;
+        width: 140px;
       }
       h1 {
         font-size: 24px;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         color: var(--green);
       }
       svg {
         display: none;
       }
     }
+
     &-block {
       ul {
         display: flex;
@@ -55,17 +258,18 @@
           }
 
           a.active {
-            width: 140px;
+            width: 140px; // Ширина активной ссылки
             height: 60px;
             background-color: var(--lightGold);
             color: var(--green);
             padding: 8px;
-            border-radius: 12px;
-            transition: 0.2s;
+            border-radius: 12px; // Скругленные углы
+            transition: background-color 0.2s linear; // Плавный переход фона
           }
         }
       }
     }
+
     &-socials {
       p {
         background-color: var(--green);
@@ -81,6 +285,7 @@
       }
     }
   }
+
   @media (max-width: 1300px) {
     &__content {
       padding: 10px 50px;
@@ -91,6 +296,7 @@
       }
     }
   }
+
   @media (max-width: 1100px) {
     &__content {
       padding: 10px 20px;
@@ -101,6 +307,7 @@
       }
     }
   }
+
   @media (max-width: 840px) {
     &__content {
       padding: 10px 20px;
@@ -112,6 +319,7 @@
         svg {
           display: block;
           font-size: 30px;
+          margin-right: 10px;
           color: var(--lightGold);
           cursor: pointer;
         }
@@ -127,71 +335,84 @@
         }
       }
     }
+   
   }
 }
+
+// Стили для бургер-меню
 .burgerMenu {
   position: fixed;
-  width: 50%;
-  top: 120px;
   right: 0%;
-  height: auto;
+  width: 45%;
+  height: 100vh;
   background-color: var(--green);
-  border: 5px solid var(--lightGold);
-  z-index: 1;
+  border-left: 5px solid var(--lightGold);
+  z-index: 999;
   padding: 10px;
+  // .blur{
+  //   filter: blur(5px);
+  // }
 
   &__content {
     width: 100%;
+    text-align: center;
+    transition: 1s linear;
+    button {
+      width: 120px;
+      height: 30px;
+      font-size: 12px;
+      background-color: var(--green);
+      padding: 4px;
+      border-radius: 8px;
+      border: 2px solid var(--lightGold);
+      margin-top: 180px;
+      a {
+        color: var(--lightGold);
+      }
+    }
+
     &-header {
       img {
-        position: relative;
-        left: 85%;
-        width: 20px;
-        cursor: pointer;
+        width: 100px;
+        margin: 20px 0;
       }
     }
     &-links {
       width: 100%;
       ul {
-        text-transform: uppercase;
-        text-align: center;
-        width: 100%;
         font-family: "Bellota Text";
+
         li {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          list-style: none;
-          width: 100%;
-          height: 50px;
+          margin-top: 15px;
           cursor: pointer;
           a {
-            text-decoration: none;
-            font-size: 14px;
-            padding: 0 20px;
+            font-size: 16px;
             color: var(--lightGold);
+            margin-top: 20px;
           }
         }
       }
     }
   }
-  &__header {
-    text-align: right;
-    margin-right: 20px;
-    margin-top: 38px;
-    width: 100%;
-  }
-  &__close {
-    svg {
-      font-size: 40px;
-      padding: 0 10px;
-      color: var(--textColor);
-      cursor: pointer;
-      &:hover {
-        opacity: 0.5;
-        transition: 0.5s;
-        color: var(--mainColor);
-      }
-    }
-  }
+
+  // &__header {
+  //   text-align: right; // Выравнивание заголовка
+  //   margin-right: 20px; // Отступ справа
+  //   margin-top: 38px; // Отступ сверху
+  //   width: 100%;
+  // }
+
+  // &__close {
+  //   svg {
+  //     font-size: 40px; // Размер иконки закрытия
+  //     padding: 0 10px; // Отступы
+  //     color: var(--textColor);
+  //     cursor: pointer;
+  //     &:hover {
+  //       opacity: 0.5; // Эффект при наведении
+  //       transition: opacity 0.5s; // Плавный переход
+  //       color: var(--mainColor);
+  //     }
+  //   }
+  // }
 }

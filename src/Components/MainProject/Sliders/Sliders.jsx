@@ -32,12 +32,12 @@ export default function Sliders() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     arrows: false,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
   };
   return (
     <div className="Sliders" id="sliders">

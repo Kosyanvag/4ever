@@ -76,7 +76,7 @@ const source = [
     price: " 139 Gel",
     order: "Заказать",
   },
-  
+
   {
     id: 10,
     img: "./images/Spark/wedding.jpg",
@@ -85,7 +85,6 @@ const source = [
     price: " 129 Gel",
     order: "Заказать",
   },
-  
 ];
 
 export default function Products() {
