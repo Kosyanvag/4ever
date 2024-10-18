@@ -2,7 +2,6 @@ import "./Modal.scss";
 import { useEffect } from "react";
 
 export default function Modal({ cancelModal }) {
-
   const handleClickOutside = (e) => {
     if (e.target.classList.contains("Modal")) {
       cancelModal();
@@ -15,7 +14,7 @@ export default function Modal({ cancelModal }) {
         cancelModal();
       }
     };
-    
+
     window.addEventListener("keydown", handleEscape);
     return () => {
       window.removeEventListener("keydown", handleEscape);
@@ -44,17 +43,12 @@ export default function Modal({ cancelModal }) {
             <option value="Radiance">Radiance</option>
           </select>
           <input type="text" placeholder="Имя Фамилия" name="Name" required />
-          <input
-            type="tel"
-            placeholder="Tелефон"
-            name="PhoneNumber"
-            required
-          />
+          <input type="tel" placeholder="Tелефон" name="PhoneNumber" required />
           <input
             type="hidden"
             name="access_key"
-            value="0338c2db-c5cc-457f-89c7-b95472fdc431"
-          />
+            value="a36cd1fd-35a3-4d54-ad0e-3d86cd1cd265"
+          ></input>
           <button type="submit">Заказать</button>
         </form>
       </div>

@@ -72,11 +72,17 @@
             top: 600px;
             right: 340px;
             animation: rotate 3s infinite ease-in-out;
-     
           }
         }
       }
-      @media (max-width: 375px) {
+      @media (max-width: 425px) {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          width: 90%;
+          font-size: 22px;
+        }
         &-image {
           width: 100%;
           span {
@@ -84,41 +90,36 @@
               width: 40px;
               position: absolute;
 
-        top: 820px;
-        left: 130px;
+              top: 820px;
+              left: 130px;
             }
           }
         }
       }
       @media (max-width: 320px) {
         &-image {
-
           span {
             img {
-
               position: absolute;
 
-        top: 815px;
-        left: 125px;
+              top: 815px;
+              left: 125px;
             }
           }
         }
       }
       @media (max-width: 380px) {
         &-image {
-
           span {
             img {
-
               position: absolute;
 
-        top: 815px;
-        left: 125px;
+              top: 815px;
+              left: 125px;
             }
           }
         }
       }
-
     }
     &-photos {
       max-width: 600px;
@@ -195,7 +196,7 @@
       }
       @media (max-width: 425px) {
         h2 {
-          font-size: 50px;
+          font-size: 34px;
         }
         &-boxes {
           gap: 10px;
@@ -258,14 +259,14 @@
       }
       @media (max-width: 460px) {
         h2 {
-          font-size: 50px;
+          font-size: 34px;
         }
       }
     }
     &-invite {
       margin-top: 50px;
       h2 {
-        font-size: 40px;
+        font-size: 34px;
         text-align: center;
       }
       form {
@@ -282,7 +283,7 @@
           select,
           input[type="text"],
           input[type="number"] {
-            width: 100%;
+            width: 90%;
             height: 50px;
             padding: 10px;
             background-color: transparent;
@@ -291,7 +292,7 @@
             border: 0;
             border-bottom: 1px solid black;
             color: black;
-
+            margin: 0 auto;
             &::placeholder {
               color: black;
             }
@@ -307,6 +308,7 @@
           background-color: black;
           color: white;
           border: 0;
+          margin-left: 20px;
         }
       }
     }

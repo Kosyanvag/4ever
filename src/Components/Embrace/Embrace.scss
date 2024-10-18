@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100..900&display=swap");
 .Embrace {
-  background: url("../../../public/images/Embrace/background.jpg") no-repeat center ;
+  background: url("../../../public/images/Embrace/background.jpg") no-repeat
+    center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -58,7 +59,7 @@
       }
       @media (max-width: 768px) {
         &-time {
-          gap: 10px;
+          gap: 15px;
           p {
             font-size: 60px;
             span {
@@ -160,14 +161,12 @@
           width: 100%;
           margin: 50px auto 0;
           max-width: 500px;
-       
-      
 
           .data {
             display: flex;
             flex-direction: column;
             gap: 10px;
-           
+
             margin-bottom: 20px;
             input {
               &::placeholder {
@@ -201,7 +200,7 @@
             color: white;
             font-weight: bold;
             width: 200px;
-            margin: 10px auto;
+            margin: 10px auto 50px;
           }
         }
       }
@@ -220,7 +219,6 @@
         }
       }
       @media (max-width: 500px) {
-        
         &-box {
           h2 {
             font-size: 40px;
@@ -230,12 +228,11 @@
           }
         }
         &-boxThree {
-          .data{
+          .data {
             margin: 0 auto;
-
-width: 80%;
+            width: 80%;
           }
-          
+
           img {
             width: 200px;
           }

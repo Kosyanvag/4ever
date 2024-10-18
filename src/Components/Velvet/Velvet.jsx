@@ -31,10 +31,7 @@ export default function Velvet() {
             ամենամտերիմ մարդիկ։
           </p>
           <div className="Velvet__content-date-image">
-            <img src="./images/Velvet/calendare.svg" alt="photo" />
-            <span>
-              <img src="./images/Velvet/ring2.png" alt="photo" />
-            </span>
+            <img src="./images/Velvet/calendare.png" alt="photo" />
           </div>
         </div>
         <div className="Velvet__content-photos">
@@ -99,11 +96,12 @@ export default function Velvet() {
             <input
               type="hidden"
               name="access_key"
-              value="90d4ff81-22a6-4ea2-8021-1173977264a8"
+              value="a36cd1fd-35a3-4d54-ad0e-3d86cd1cd265"
             />
             <div className="data">
               <select name="ՀյուրերիՔանակ" required>
-                <option value="Նշեք հյուրերի քանակը" selected disabled>Նշեք հյուրերի քանակը
+                <option value="Նշեք հյուրերի քանակը" selected disabled>
+                  Նշեք հյուրերի քանակը
                 </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -116,7 +114,6 @@ export default function Velvet() {
                 <option value="9">9</option>
                 <option value="10">10</option>
                 <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
-                  
               </select>
               <input
                 type="text"

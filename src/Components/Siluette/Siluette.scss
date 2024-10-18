@@ -61,6 +61,7 @@
               align-items: end;
               justify-content: center;
               color: whitesmoke;
+              text-align: center;
             }
           }
         }
@@ -193,12 +194,12 @@
           border: 0;
           color: #434432;
           border-bottom: 1px solid #434432;
+          border-radius: 0;
           &:focus {
             outline: none;
           }
-          &::placeholder{
-           color: #434432;
-
+          &::placeholder {
+            color: #434432;
           }
         }
 
@@ -206,7 +207,7 @@
           padding: 15px 50px;
           border-radius: 30px;
           background-color: #434432;
-        
+          border: 0;
           color: whitesmoke;
           font-weight: bold;
           width: 200px;
