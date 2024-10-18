@@ -5,6 +5,7 @@
   width: 100%;
   padding: 80px 100px;
   &__content {
+   
     width: 100%;
     height: auto;
     display: flex;
@@ -55,6 +56,7 @@
         border-radius: 12px;
         margin: 80px 0;
         transition: 0.4s linear ;
+        font-family: "Bellota Text";
 
         &:hover {
           color: var(--white);
