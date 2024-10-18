@@ -157,6 +157,10 @@
         text-align: center;
         width: 100%;
         font-family: "Bellota Text";
+        hr {
+          margin: 0 auto;
+          width: 70%;
+        }
         li {
           display: flex;
           justify-content: center;

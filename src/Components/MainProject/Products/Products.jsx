@@ -73,7 +73,7 @@ const source = [
     img: "./images/Siluette/Wedding.jpg",
     title: "Siluette",
     desc: '"Siluette — изысканная деталь вашего идеального дня."',
-    price: " Gel",
+    price: "89 Gel",
     order: "Заказать",
   },
 ];
