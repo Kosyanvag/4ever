@@ -68,9 +68,17 @@ const source = [
     price: " 159 Gel",
     order: "Заказать",
   },
-  
   {
     id: 9,
+    img: "./images/Siluette/Wedding.jpg",
+    title: "Siluette",
+    desc: '"Силуэт любви, который никогда не исчезнет"',
+    price: " 139 Gel",
+    order: "Заказать",
+  },
+  
+  {
+    id: 10,
     img: "./images/Spark/wedding.jpg",
     title: "Spark",
     desc: '"Искра, с которой начинается ваше вечное пламя любви"',

@@ -10,7 +10,6 @@
     font-family: "Bellota Text";
     margin-bottom: 50px;
 
-
     a {
       color: var(--lightGold);
       text-decoration: none;
@@ -44,7 +43,6 @@
         width: 300px;
       }
       &-contacts {
-   
         font-family: "Bellota Text";
         ul {
           display: flex;
@@ -53,10 +51,9 @@
           li {
             font-size: 22px;
           }
-          a{
+          a {
             color: var(--lightGold);
             text-decoration: none;
-
           }
         }
       }
@@ -84,6 +81,23 @@
         p {
           font-size: 20px;
           text-align: center;
+        }
+      }
+    }
+  }
+  @media (max-width: 580px) {
+    &__content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 50px;
+      &-logo {
+        &-contacts {
+          text-align: center;
+        }
+        &-support {
+          width: 90%;
         }
       }
     }
