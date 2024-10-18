@@ -99,6 +99,20 @@ export default function Harmony() {
           <p>Կսպասենք պատասխանի մինչև 14.12.2024</p>
 
           <form action="https://api.web3forms.com/submit" method="POST">
+          <select name="Հյուրերի քանակ" required>
+              <option value="Հյուրերի քանակ" selected disabled>
+                Նշեք հյուրերի քանակը
+              </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="Չենք կարողանա գալ">Չեմ կարողանա գալ</option>
+            </select>
             <input
               type="hidden"
               name="access_key"
@@ -116,20 +130,7 @@ export default function Harmony() {
               name="Հեռախոսահամար"
               required
             />
-            <select name="Հյուրերի քանակ" required>
-              <option value="Հյուրերի քանակ" selected disabled>
-                Նշեք հյուրերի քանակը
-              </option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="Չենք կարողանա գալ">Չեմ կարողանա գալ</option>
-            </select>
+            
             <button>Ուղարկել</button>
           </form>
 

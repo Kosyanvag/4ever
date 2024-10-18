@@ -229,7 +229,6 @@
             color: white;
             border: none;
             font-weight: bold;
-            font-size: 1.125rem;
             margin: 1rem auto;
           }
         }
@@ -293,17 +292,22 @@
           select,
           input[type="text"],
           input[type="number"] {
-            width: 100%;
+            width: 90%;
             height: 50px;
             padding: 5px 20px;
             background-color: transparent;
-            font-size: 20px;
+            font-size: 18px;
             border: 0;
+            border-radius: 0;
             border-bottom: 1px solid rgb(126, 123, 123);
             color: rgb(126, 123, 123);
+            margin: 0 auto;
 
             &:focus {
               outline: none;
+            }
+            &::placeholder {
+              color: rgb(126, 123, 123);
             }
           }
         }
@@ -315,7 +319,7 @@
           border: none;
           font-weight: bold;
           width: 200px;
-          margin: 10px auto;
+          margin: 10px auto 20px;
         }
       }
     }
@@ -330,11 +334,12 @@
 
     &-location,
     &-agenda {
-      
       h5,
       h3,
       p {
         font-size: 1rem;
+        width: 80%;
+        margin: 30px auto 0;
       }
     }
   }

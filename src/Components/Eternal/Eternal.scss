@@ -159,6 +159,10 @@
           border-radius: 8px;
           border: 2px solid rgb(94, 87, 87);
           background-color: ghostwhite;
+          color:  rgb(94, 87, 87);
+          &:focus{
+            outline: none;
+          }
         }
       }
       select {

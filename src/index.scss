@@ -18,4 +18,15 @@
 
 html {
   scroll-behavior: smooth;
+  
+}
+
+a{
+  text-decoration: none;
+}
+body{
+  user-select: none;
+}
+img{
+  -webkit-user-drag: none;
 }

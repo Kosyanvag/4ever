@@ -52,81 +52,81 @@ export default function Nav() {
     };
   }, [isMenuOpen]);
 
+  const handleMenuToggle = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
+
   return (
     <>
-      {isMenuOpen === false ? (
-        <nav className="Nav">
-          <div className="Nav__content">
-            <div className="Nav__content-logo">
-              <img src="./images/Main/Nav/logo2.jpg" alt="logo" />
-              <RxHamburgerMenu onClick={() => setIsMenuOpen(true)} />
-            </div>
-            <div className="Nav__content-block">
-              <ul>
-                <li>
-                  <a
-                    href="#about"
-                    className={activeSection === "about" ? "active" : ""}
-                  >
-                    Заказать
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#sliders"
-                    className={activeSection === "sliders" ? "active" : ""}
-                  >
-                    Новости
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#products"
-                    className={activeSection === "products" ? "active" : ""}
-                  >
-                    Приглашения
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#footer"
-                    className={activeSection === "footer" ? "active" : ""}
-                  >
-                    О нас
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="Nav__content-socials">
-              <p>
-                <a href="tel:+995598403499">+ 995 598 40 34 99</a>
-              </p>
-            </div>
-          </div>
-        </nav>
-      ) : (
-        <>
+      <div className={isMenuOpen ? "blur" : ""}>
+        {!isMenuOpen && (
           <nav className="Nav">
             <div className="Nav__content">
               <div className="Nav__content-logo">
-                <img src="./images/Main/Nav/logo2.jpg" alt="logo" />
+                <a href="#about">
+                  <img src="./images/Main/Nav/logo2.jpg" alt="logo" />
+                </a>
+
+                <RxHamburgerMenu onClick={handleMenuToggle} />
+              </div>
+              <div className="Nav__content-block">
+                <ul>
+                  <li>
+                    <a
+                      href="#about"
+                      className={activeSection === "about" ? "active" : ""}
+                    >
+                      Заказать
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#sliders"
+                      className={activeSection === "sliders" ? "active" : ""}
+                    >
+                      Новости
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#products"
+                      className={activeSection === "products" ? "active" : ""}
+                    >
+                      Приглашения
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#footer"
+                      className={activeSection === "footer" ? "active" : ""}
+                    >
+                      О нас
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="Nav__content-socials">
+                <p>
+                  <a href="tel:+995551555322">+ 995 551 555 322</a>
+                </p>
               </div>
             </div>
           </nav>
+        )}
+        {isMenuOpen && (
           <div
             className={`burgerMenu ${isMenuOpen ? "open" : ""}`}
             ref={menuRef}
           >
             <div className="burgerMenu__content">
+              <button>
+                <a href="tel:+995551555322">+ 995 551 555 322</a>
+              </button>
               <div className="burgerMenu__content-header">
-                <img
-                  onClick={() => setIsMenuOpen(false)}
-                  src="./images/Modal/x.svg"
-                  alt="cancel"
-                />
+                <img src="./images/Main/Nav/logo2.jpg" alt="logo" />
               </div>
               <div className="burgerMenu__content-links">
-                <ul>
+                <ul onClick={() => setIsMenuOpen(false)}>
                   <li>
                     <a
                       href="#about"
@@ -163,16 +163,12 @@ export default function Nav() {
                       О нас
                     </a>
                   </li>
-                  <hr />
-                  <li>
-                    <a href="tel:+995551555322">+995 551 555 322</a>
-                  </li>
                 </ul>
               </div>
             </div>
           </div>
-        </>
-      )}
+        )}
+      </div>
     </>
   );
 }

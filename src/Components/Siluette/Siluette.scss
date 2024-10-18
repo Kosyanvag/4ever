@@ -61,6 +61,7 @@
               align-items: end;
               justify-content: center;
               color: whitesmoke;
+              text-align: center;
             }
           }
         }
@@ -169,7 +170,7 @@
       background-color: #daddc2;
       img {
         width: 300px;
-        margin: 20px auto;
+        margin: 40px auto;
       }
       p {
         font-size: 18px;
@@ -180,6 +181,7 @@
         max-width: 500px;
         display: flex;
         flex-direction: column;
+        gap: 20px;
 
         select,
         input[type="text"],
@@ -188,24 +190,28 @@
           height: 50px;
           padding: 5px 20px;
           background-color: transparent;
-          font-size: 20px;
+          font-size: 18px;
           border: 0;
-          color: black;
-          border-bottom: 1px solid black;
+          color: #434432;
+          border-bottom: 1px solid #434432;
+          border-radius: 0;
           &:focus {
             outline: none;
+          }
+          &::placeholder {
+            color: #434432;
           }
         }
 
         button {
           padding: 15px 50px;
           border-radius: 30px;
-          background-color: transparent;
-          border: 1px solid #434432;
-          color: #434432;
+          background-color: #434432;
+          border: 0;
+          color: whitesmoke;
           font-weight: bold;
           width: 200px;
-          margin: 10px auto;
+          margin: 40px auto;
         }
       }
     }

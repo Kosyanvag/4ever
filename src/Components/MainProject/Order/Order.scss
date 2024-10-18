@@ -19,7 +19,7 @@
     padding: 1em;
     text-align: center;
     align-self: center;
-    width: max(400px, 40%);
+    width: max(340px, 40%);
     min-height: 400px;
     box-shadow: -2px -7px 56px 4px rgba(238, 238, 238, 0.69);
     border: 5px solid var(--lightGold);
@@ -29,7 +29,8 @@
       padding: 10px;
 
       img {
-        width: 30px;
+        width: 25px;
+        margin-bottom: 10px;
         cursor: pointer;
         &:hover {
           scale: 0.9;
@@ -47,9 +48,8 @@
       flex-direction: column;
       gap: 10px;
 
-
       button {
-        width: 160px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         margin: 0 auto;
@@ -58,13 +58,14 @@
         font-size: 16px;
         border: 0;
         margin-top: 10px;
+        font-family: "Bellota Text";
         &:hover {
           scale: 0.98;
         }
       }
     }
     input {
-      width: 60%;
+      width: 75%;
       height: 40px;
       border-radius: 10px;
       background-color: var(--white);
@@ -82,8 +83,6 @@
         outline: none;
         color: var(--Ruluko);
       }
-
-      
     }
   }
 }
