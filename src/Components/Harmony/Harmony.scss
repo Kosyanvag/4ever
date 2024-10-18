@@ -121,8 +121,12 @@
       }
       h4 {
         font-size: 42px;
+        
     
 
+      }
+      h2{
+        margin-bottom: 40px;
       }
 
       form {
@@ -186,132 +190,132 @@
 
 
 
-// @media (max-width: 768px) {
-//   .Serene{
-//    &__content {
+@media (max-width: 768px) {
+  .Harmony{
+   &__content {
  
 
  
-//      &-title {
+     &-title {
        
        
-//      }
-//      &-clock{
-//        h3{
-//          font-size: 24px;
-//        }
-//        > div{
-//          p{
-//            font-size: 20px;
-//          }
-//        }
-//      }
-//      &-about {
-//        flex-direction: column;
-//        &-left, &-center, &-right {
+     }
+     &-clock{
+       h3{
+         font-size: 20px;
+       }
+       > div{
+         p{
+           font-size: 20px;
+         }
+       }
+     }
+     &-about {
+       flex-direction: column;
+       &-left, &-center, &-right {
    
-//          margin-bottom: 20px;
+         margin-bottom: 20px;
  
-//        }
-//        &-center{
-//          width: 70%;
-//        }
-//        &-right{
-//          width: 80%;
-//        }
+       }
+       &-center{
+         width: 70%;
+       }
+       &-right{
+         width: 80%;
+       }
        
-//      }
-//      &-day {
-//        h2 {
-//          font-size: 28px;
-//        }
-//        h3 {
-//          font-size: 24px;
-//        }
-//        h4 {
-//          font-size: 22px;
-//        }
-//        &-block{
-//          flex-direction: column;
-//          justify-content: center;
-//          align-items: start;
-//          align-content: space-around;
-//          margin-bottom: 40px;
-//          &-left, &-right{
-//            img{
-//              margin: 0 auto;
-//              width: 60%;
-//            }
+     }
+     &-day {
+       h2 {
+         font-size: 28px;
+       }
+       h3 {
+         font-size: 24px;
+       }
+       h4 {
+         font-size: 22px;
+       }
+       &-block{
+         flex-direction: column;
+         justify-content: center;
+         align-items: start;
+         align-content: space-around;
+         margin-bottom: 40px;
+         &-left, &-right{
+           img{
+             margin: 0 auto;
+             width: 60%;
+           }
            
-//          }
-//          &-center{
+         }
+         &-center{
  
-//            img{
-//              margin: 0 auto;
-//              width: 90%;
+           img{
+             margin: 0 auto;
+             width: 90%;
  
-//            }
+           }
         
-//          }
+         }
  
    
-//        }
-//      }
-//      &-contact {
+       }
+     }
+     &-contact {
  
  
-//        p {
-//          font-size: 22px;
-//          margin: 40px 0;
-//        }
-//        h2 {
-//          font-size: 24px;
-//        }
+       p {
+         font-size: 22px;
+         margin: 40px 0;
+       }
+       h2 {
+         font-size: 24px;
+       }
  
-//        form {
-//          display: flex;
-//          flex-direction: column;
-//          align-content: start;
+       form {
+         display: flex;
+         flex-direction: column;
+         align-content: start;
     
    
-//          width: 80%;
-//          margin: 0 auto;
-//          select{
-//            width: 300px;
-//          }
+         width: 80%;
+         margin: 0 auto;
+         select{
+           width: 300px;
+         }
   
  
-//          input {
-//            width: 300px;
-//            height: 50px;
-//            margin: 0 auto;
-//            padding: 8px;
+         input {
+           width: 300px;
+           height: 50px;
+           margin: 0 auto;
+           padding: 8px;
  
          
   
         
  
            
-//          }
-//        }
+         }
+       }
        
-//        button {
-//          width: 120px;
-//          height: 32px;
-//          font-size: 14px;
-//          color: ghostwhite;
-//          background-color: rgb(179, 163, 163);
-//          border-radius: 10px;
-//          border: 0;
-//          margin-top: 30px;
-//          margin: 0 auto 50px;
-//        }
+       button {
+         width: 120px;
+         height: 32px;
+         font-size: 14px;
+         color: ghostwhite;
+         background-color: rgb(179, 163, 163);
+         border-radius: 10px;
+         border: 0;
+         margin-top: 30px;
+         margin: 0 auto 50px;
+       }
      
-//      }
+     }
     
-//    }
-//   }
-//  }
+   }
+  }
+ }
  
  
 //  @media (max-width: 425px) {

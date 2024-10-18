@@ -141,7 +141,7 @@ export default function Embrace() {
                   required
                 />
               </div>
-              <button>Ուղղարկել</button>
+              <button>Ուղարկել</button>
             </form>
           </div>
         </div>

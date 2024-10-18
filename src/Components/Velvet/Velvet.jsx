@@ -68,7 +68,7 @@ export default function Velvet() {
               </div>
               <div className="Velvet__content-timing-boxes-box2-item">
                 <img src="./images/Velvet/end.svg" alt="" />
-                <span>24:00</span>
+                <span>00:00</span>
                 <p>Ավարտ</p>
               </div>
             </div>
@@ -103,7 +103,8 @@ export default function Velvet() {
             />
             <div className="data">
               <select name="ՀյուրերիՔանակ" required>
-                <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
+                <option value="Նշեք հյուրերի քանակը" selected disabled>Նշեք հյուրերի քանակը
+                </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -114,9 +115,8 @@ export default function Velvet() {
                 <option value="8">8</option>
                 <option value="9">9</option>
                 <option value="10">10</option>
-                <option value="Նշեք հյուրերի քանակը" selected disabled>
-                  Նշեք հյուրերի քանակը
-                </option>
+                <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
+                  
               </select>
               <input
                 type="text"
@@ -130,7 +130,7 @@ export default function Velvet() {
                 required
               />
             </div>
-            <button>Ուղղարկել</button>
+            <button>Ուղարկել</button>
           </form>
         </div>
       </div>

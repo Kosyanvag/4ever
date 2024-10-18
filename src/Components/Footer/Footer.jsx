@@ -27,15 +27,15 @@ export default function Footer() {
         <a href="https://www.instagram.com/4ever.ge/">
           <img src="./images/Logo/instagram.svg" alt="insagram" />
         </a>
-        <a href="">
+        <a href="https://t.me/foureverge">
           <img src="./images/Logo/telegram.svg" alt="telegram" />
         </a>
-        <a href="">
+        <a href="wa.me/995551555322">
           <img src="./images/Logo/wp.svg" alt="whatsapp" />
         </a>
       </div>
       <h6>
-        <a className="email" href="">
+        <a className="email" >
           4ever.ge
         </a>
       </h6>

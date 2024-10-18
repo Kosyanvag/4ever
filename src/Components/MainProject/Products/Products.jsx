@@ -14,7 +14,7 @@ const source = [
   },
   {
     id: 2,
-    img: "./images/Bliss/wedding1.jpg",
+    img: "./images/Bliss/wedding.jpg",
     title: "Bliss",
     desc: '"Безмятежная радость, наполненная любовью"',
     price: "79 Gel",
@@ -25,7 +25,7 @@ const source = [
     img: "./images/Eternal/wedding.jpg",
     title: "Eternal",
     desc: '"Любовь, которая не знает конца."',
-    price: "99 Gel",
+    price: "129 Gel",
     order: "Заказать",
   },
   {
