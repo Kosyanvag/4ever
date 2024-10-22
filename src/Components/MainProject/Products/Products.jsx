@@ -6,7 +6,7 @@ import ReactPaginate from "react-paginate";
 const source = [
   {
     id: 1,
-    img: "./images/Serene/1.jpg",
+    img: "./images/Serene/2_cr.jpg",
     title: "Serene",
     desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
     price: "149 Gel",
@@ -14,7 +14,7 @@ const source = [
   },
   {
     id: 2,
-    img: "./images/Bliss/wedding.jpg",
+    img: "./images/Bliss/wedding(1).jpg",
     title: "Bliss",
     desc: '"Безмятежная радость, наполненная любовью"',
     price: "79 Gel",
@@ -22,7 +22,7 @@ const source = [
   },
   {
     id: 3,
-    img: "./images/Eternal/wedding.jpg",
+    img: "./images/Eternal/wedding(1).jpg",
     title: "Eternal",
     desc: '"Любовь, которая не знает конца."',
     price: "129 Gel",
@@ -30,7 +30,7 @@ const source = [
   },
   {
     id: 4,
-    img: "./images/Pure/man.jpg",
+    img: "./images/Pure/man(1).jpg",
     title: "Pure",
     desc: '"Восторг, который захватывает сердце и душу."',
     price: "99 Gel",
@@ -38,7 +38,7 @@ const source = [
   },
   {
     id: 5,
-    img: "./images/Embrace/wedding.jpg",
+    img: "./images/Embrace/wedding(1).jpg",
     title: "Embrace",
     desc: '"Тепло объятий, которые связывают сердца навеки."',
     price: "89 Gel",
@@ -46,7 +46,7 @@ const source = [
   },
   {
     id: 6,
-    img: "./images/Velvet/2.jpg",
+    img: "./images/Velvet/2_cr.jpg",
     title: "Velvet",
     desc: '"Мягкость и элегантность, как прикосновение любви."',
     price: "149 Gel",
@@ -54,7 +54,7 @@ const source = [
   },
   {
     id: 7,
-    img: "./images/Harmony/wed.jpg",
+    img: "./images/Harmony/wed(1).jpg",
     title: "Harmony",
     desc: '"Гармония - это слияние души и сердца в одном ритме."',
     price: "109 Gel",
@@ -62,7 +62,7 @@ const source = [
   },
   {
     id: 8,
-    img: "./images/Radiance/wedding.jpg",
+    img: "./images/Radiance/wedding_cr.jpg",
     title: "Radiance",
     desc: '"Сияние, которое отражает чистоту и красоту вашей любви."',
     price: " 159 Gel",
@@ -70,7 +70,7 @@ const source = [
   },
   {
     id: 9,
-    img: "./images/Siluette/Wedding.jpg",
+    img: "./images/Siluette/Wedding_cr.jpg",
     title: "Siluette",
     desc: '"Силуэт любви, который никогда не исчезнет"',
     price: " 139 Gel",
@@ -79,7 +79,7 @@ const source = [
 
   {
     id: 10,
-    img: "./images/Spark/wedding.jpg",
+    img: "./images/Spark/wedding(1).jpg",
     title: "Spark",
     desc: '"Искра, с которой начинается ваше вечное пламя любви"',
     price: " 129 Gel",
