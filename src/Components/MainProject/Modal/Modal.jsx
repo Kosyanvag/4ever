@@ -23,7 +23,7 @@ export default function Modal({ cancelModal }) {
 
   return (
     <div className="Modal" onClick={handleClickOutside}>
-      <div className="Modal__content">
+      <div className="Modal__content"> 
         <div>
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
