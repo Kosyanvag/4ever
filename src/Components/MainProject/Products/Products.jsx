@@ -85,6 +85,14 @@ const source = [
     price: " 129 Gel",
     order: "Заказать",
   },
+  {
+    id: 11,
+    img: "./images/Eclipse/1.jpg",
+    title: "Eclipse",
+    desc: '"Искра, с которой начинается ваше вечное пламя любви"',
+    price: "Gel",
+    order: "Заказать",
+  },
 ];
 
 export default function Products() {

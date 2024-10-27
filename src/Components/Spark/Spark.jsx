@@ -1,6 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import "./Spark.scss";
-
 export default function Spark() {
   return (
     <div className="Spark">

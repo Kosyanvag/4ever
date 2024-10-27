@@ -23,7 +23,7 @@ export default function Modal({ cancelModal }) {
 
   return (
     <div className="Modal" onClick={handleClickOutside}>
-      <div className="Modal__content"> 
+      <div className="Modal__content">
         <div>
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
@@ -41,6 +41,8 @@ export default function Modal({ cancelModal }) {
             <option value="Velvet">Velvet</option>
             <option value="Harmony">Harmony</option>
             <option value="Radiance">Radiance</option>
+            <option value="Siluette">Siluette</option>
+            <option value="Spark">Spark</option>
           </select>
           <input type="text" placeholder="Имя Фамилия" name="Name" required />
           <input type="tel" placeholder="Tелефон" name="PhoneNumber" required />

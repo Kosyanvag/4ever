@@ -1,21 +1,3 @@
-// import { Routes, Route } from "react-router-dom";
-// import Nav from "./Components/MainProject/Nav/Nav";
-// import Project from "./Components/MainProject/Project";
-// import About from "./Components/MainProject/About/About";
-// import Products from "./Components/MainProject/Products/Products";
-// import ProductDetails from "./Components/ProductDetails/ProductDetails";
-// import Pure from "./Components/Pure/Pure";
-
-// export default function App() {
-//   return (
-//     <div>
-//       <Routes>
-//         <Route path="/" element={<Project />} />
-//         <Route path="/product/:id" element={<ProductDetails />} />
-//       </Routes>
-//     </div>
-//   );
-// }
 import { Routes, Route } from "react-router-dom";
 import Project from "./Components/MainProject/Project";
 import Pure from "./Components/Pure/Pure";
@@ -28,6 +10,7 @@ import Harmony from "./Components/Harmony/Harmony";
 import Radiance from "./Components/Radiance/Radiance";
 import Siluette from "./Components/Siluette/Siluette";
 import Spark from "./Components/Spark/Spark";
+import Eclipse from "./Components/Eclipse/Eclipse";
 
 export default function App() {
   return (
@@ -44,6 +27,7 @@ export default function App() {
         <Route path="/radiance" element={<Radiance />} />
         <Route path="/siluette" element={<Siluette />} />
         <Route path="/spark" element={<Spark />} />
+        <Route path="/Eclipse" element={<Eclipse />} />
       </Routes>
     </div>
   );
