@@ -38,7 +38,7 @@ const source = [
   },
   {
     id: 5,
-    img: "./images/Embrace/wedding(1).jpg",
+    img: "./images/Embrace/wedding_cr.jpg",
     title: "Embrace",
     desc: '"Тепло объятий, которые связывают сердца навеки."',
     price: "89 Gel",
@@ -79,7 +79,7 @@ const source = [
 
   {
     id: 10,
-    img: "./images/Spark/wedding(1).jpg",
+    img: "./images/Spark/wedding(1)_cr.jpg",
     title: "Spark",
     desc: '"Искра, с которой начинается ваше вечное пламя любви"',
     price: " 129 Gel",
