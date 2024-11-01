@@ -43,6 +43,7 @@ export default function Modal({ cancelModal }) {
             <option value="Radiance">Radiance</option>
             <option value="Siluette">Siluette</option>
             <option value="Spark">Spark</option>
+            <option value="Eclipse">Eclipse</option>
           </select>
           <input type="text" placeholder="Имя Фамилия" name="Name" required />
           <input type="tel" placeholder="Tелефон" name="PhoneNumber" required />

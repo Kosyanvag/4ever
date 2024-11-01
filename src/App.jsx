@@ -27,7 +27,7 @@ export default function App() {
         <Route path="/radiance" element={<Radiance />} />
         <Route path="/siluette" element={<Siluette />} />
         <Route path="/spark" element={<Spark />} />
-        <Route path="/Eclipse" element={<Eclipse />} />
+        {/* <Route path="/Eclipse" element={<Eclipse />} /> */}
       </Routes>
     </div>
   );

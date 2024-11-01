@@ -1,11 +1,14 @@
 .Sliders {
   width: 100%;
   // height: 600px;
+
   background-color: var(--white);
   &__content {
     width: 50%;
     // height: 500px;
-    margin: 40px auto 100px;
+    margin: 0px auto;
+    padding: 40px auto 100px;
+
     div > img {
       width: 100%;
       // height: 400px;
@@ -37,20 +40,19 @@
     &-content {
       div {
         img {
-          margin-bottom: 100px;
+          // margin-bottom: 100px;
           height: 100%;
         }
       }
     }
   }
   @media (max-width: 450px) {
-    height: 300px;
-    margin-bottom: 100px;
+    height: 400px;
     &__content {
       width: 100%;
     }
   }
   @media (max-width: 390px) {
-    height: 250px;
+    height: 290px;
   }
 }

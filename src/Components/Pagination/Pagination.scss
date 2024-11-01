@@ -10,20 +10,27 @@
   padding: 80px 0;
 
   &__content {
-   
     > div {
       width: 300px;
-      height: 480px;
-      opacity: 0.9;
+      height: 500px;
       background-color: var(--white);
-      border-radius: 8px;
-      
+      // border-radius: 12px;
 
       img {
-        width: 300px;
-        height: 280px;
-        padding: 20px;
- 
+        width: 260px;
+        height: 240px;
+        // border-radius: 12px;
+        margin: 20px;
+        opacity: 0.9;
+        &:hover {
+          scale: 0.94;
+          transition: all 0.5s;
+        }
+        @media (max-width: 450px) {
+          &:hover {
+            scale: 1;
+          }
+        }
       }
       h1 {
         font-size: 28px;
@@ -31,12 +38,12 @@
         font-family: "League Script";
         color: var(--green);
       }
-     
+
       p {
         width: 90%;
         height: 95px;
         font-size: 18px;
-        margin: 0 auto;
+        margin: 0 auto 20px;
         font-family: "Bellota Text";
         color: var(--lightGold);
       }
@@ -45,7 +52,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-  
+
         button {
           width: 120px;
           height: 40px;
@@ -56,19 +63,16 @@
           scale: 1;
           font-family: "Bellota Text";
           background-color: var(--lightGold);
-          transition: 0.2s linear ;
+          transition: 0.2s linear;
         }
         button:nth-child(2) {
           background-color: var(--green);
           &:hover {
             scale: 0.94;
-            transition: 0.2s linear ;
+            transition: 0.2s linear;
           }
         }
       }
     }
   }
-  // @media (max-width: 450px) {
-  //   padding: 20px 10px;
-  // }
 }
