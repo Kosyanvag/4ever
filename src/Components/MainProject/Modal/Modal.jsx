@@ -30,7 +30,7 @@ export default function Modal({ cancelModal }) {
         <h2>Оформление заказа </h2>
         <form action="https://api.web3forms.com/submit" method="POST">
           <select name="Design" required>
-            <option value="" selected disabled>
+            <option value="" selected disabled hidden>
               Выберите ваш дизайн
             </option>
             <option value="Serene">Serene</option>

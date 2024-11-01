@@ -100,7 +100,7 @@ export default function Velvet() {
             />
             <div className="data">
               <select name="ՀյուրերիՔանակ" required>
-                <option value="Նշեք հյուրերի քանակը" selected disabled>
+                <option value="" disabled selected hidden aria-hidden="true">
                   Նշեք հյուրերի քանակը
                 </option>
                 <option value="1">1</option>

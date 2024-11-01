@@ -114,7 +114,7 @@ export default function Embrace() {
               />
               <div className="data">
                 <select name="ՀյուրերիՔանակ" required>
-                  <option value="Նշեք հյուրերի քանակը" selected disabled>
+                  <option value="Նշեք հյուրերի քանակը" selected disabled hidden>
                     Նշեք հյուրերի քանակը
                   </option>
                   <option value="1">1</option>

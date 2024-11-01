@@ -52,7 +52,7 @@ export default function Radiance() {
         <div className="Radiance__content-contact">
           <form action="https://api.web3forms.com/submit" method="POST">
             <select name="Հյուրերի քանակ" required>
-              <option value="Հյուրերի քանակ" selected disabled>
+              <option value="Հյուրերի քանակ" selected disabled hidden>
                 Укажите кол-во гостей
               </option>
               <option value="1">1</option>

@@ -89,7 +89,7 @@ const source = [
     id: 11,
     img: "./images/Eclipse/1.jpg",
     title: "Eclipse",
-    desc: '"Искра, с которой начинается ваше вечное пламя любви"',
+    desc: "“Любовь, как затмение, редка и прекрасна.”",
     price: "Gel",
     order: "Заказать",
   },

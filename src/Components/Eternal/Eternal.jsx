@@ -44,10 +44,10 @@ export default function Eternal() {
         <div className="Eternal__content-about">
           <h2>дорогие гости!</h2>
           <p>
-            В нашей жизни предстоят счастливые перемены! <br /> Мы хотим, чтобы в этот
-            день рядом с нами были самие близкие и дорогие для нас люди. <br /> Будем
-            рады разделить с вами чудесный праздник. <br /> <br /> С любовью,
-            Ашот и Лилит
+            В нашей жизни предстоят счастливые перемены! <br /> Мы хотим, чтобы
+            в этот день рядом с нами были самие близкие и дорогие для нас люди.{" "}
+            <br /> Будем рады разделить с вами чудесный праздник. <br /> <br />{" "}
+            С любовью, Ашот и Лилит
           </p>
         </div>
         <div className="Eternal__content-clock">
@@ -133,7 +133,7 @@ export default function Eternal() {
           <p>Ожидаем ваш ответ до 08.12.2024</p>
           <form action="https://api.web3forms.com/submit" method="POST">
             <select name="Кол-во гостей" required>
-              <option value="Укажите кол-во гостей" selected disabled>
+              <option value="Укажите кол-во гостей" selected disabled hidden>
                 Укажите кол-во гостей
               </option>
               <option value="1">1</option>

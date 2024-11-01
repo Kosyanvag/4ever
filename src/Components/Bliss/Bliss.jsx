@@ -4,6 +4,7 @@ export default function Bliss() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="Bliss">
       <div className="Bliss__content">
