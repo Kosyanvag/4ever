@@ -1,25 +1,298 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Armenian:wght@100..900&display=swap");
+
+// .Eclipse {
+//   &__content {
+//     font-family: "MontserratARM";
+//     &-header {
+//       background: url("../../../public/images/Eclipse/1.jpg");
+//       background-size: cover;
+//       width: 95vw;
+//       height: 95vh;
+//       border-radius: 50px;
+//       display: flex;
+//       justify-content: center;
+//       margin: 20px auto;
+//       padding-top: 200px;
+//       position: sticky;
+//       top: 0;
+//       left: 40px;
+
+//       h1 {
+//         color: black;
+//         font-family: "MontserratARM";
+//         font-weight: lighter;
+//       }
+//     }
+
+//     &-invitation {
+//       margin: 20px auto;
+//       width: 80vw;
+//       height: 85vh;
+//       background-color: rgba(0, 0, 0, 0.8);
+//       backdrop-filter: blur(10px);
+//       border-radius: 50px;
+//       position: sticky;
+//       top: 0;
+//       position: relative;
+//       &-text {
+//         position: relative;
+//         z-index: 1;
+//         padding: 20px;
+//         border-radius: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 150px auto;
+//         width: 50%;
+//         h2 {
+//           margin-bottom: 40px;
+//           font-family: "MontserratARM";
+//           font-weight: lighter;
+//           font-size: 32px;
+//         }
+//         p {
+//           font-family: "MontserratARM";
+//           width: 50%;
+//           margin: 0 auto 40px;
+//           font-size: 16px;
+//           font-weight: lighter;
+//         }
+//         h3 {
+//           font-family: "MontserratARM";
+//           font-size: 32px;
+//           font-weight: lighter;
+//         }
+//       }
+//     }
+//     &-church {
+//       background: url("../../../public/images/Eclipse/2.jpg");
+//       background-size: cover;
+//       width: 95vw;
+//       height: 95vh;
+//       border-radius: 50px;
+//       margin: 20px auto;
+//       position: sticky;
+//       top: 0;
+//     }
+//     &-churchText {
+//       margin: 20px auto;
+//       width: 80vw;
+//       height: 85vh;
+//       background-color: rgba(0, 0, 0, 0.8);
+//       backdrop-filter: blur(8px);
+//       border-radius: 50px;
+//       position: sticky;
+//       top: 0;
+//       &-box {
+//         padding: 20px;
+//         border-radius: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 150px auto;
+//         width: fit-content;
+//         h2 {
+//           margin-bottom: 40px;
+//         }
+//         p {
+//           margin-bottom: 20px;
+//         }
+//       }
+//     }
+//     &-resturant {
+//       background: url("../../../public/images/Eclipse/3.jpg");
+//       background-size: cover;
+//       width: 95vw;
+//       height: 95vh;
+//       border-radius: 50px;
+//       margin: 20px auto;
+//       position: sticky;
+//       top: 0;
+//     }
+//     &-resturantText {
+//       margin: 20px auto;
+//       width: 80vw;
+//       height: 85vh;
+//       background-color: rgba(0, 0, 0, 0.8);
+//       backdrop-filter: blur(8px);
+//       border-radius: 50px;
+//       position: sticky;
+//       top: 0;
+//       &-box {
+//         padding: 20px;
+//         border-radius: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 150px auto;
+//         width: fit-content;
+//         h2 {
+//           margin-bottom: 40px;
+//         }
+//         p {
+//           margin-bottom: 20px;
+//         }
+//       }
+//     }
+//     &-couple {
+//       background: url("../../../public/images/Eclipse/4.jpg");
+//       background-size: cover;
+//       width: 95vw;
+//       height: 95vh;
+//       border-radius: 50px;
+//       margin: 20px auto;
+//       position: sticky;
+//       top: 0;
+//     }
+//     &-dressCode {
+//       margin: 20px auto;
+//       width: 80vw;
+//       height: 85vh;
+//       background-color: rgba(0, 0, 0, 0.8);
+//       backdrop-filter: blur(8px);
+//       border-radius: 50px;
+//       position: sticky;
+//       top: 0;
+//       &-box {
+//         padding: 20px;
+//         border-radius: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 100px auto;
+//         width: fit-content;
+//         h2 {
+//           margin-bottom: 40px;
+//         }
+//         p {
+//           &:nth-child(2) {
+//             margin-bottom: 40px;
+//             line-height: 1.55;
+//           }
+//           &:nth-child(3) {
+//             margin: 0 auto;
+//             width: 70%;
+//           }
+//         }
+//       }
+//     }
+//     &-couple2 {
+//       background: url("../../../public/images/Eclipse/5.jpg");
+//       background-size: cover;
+//       width: 95vw;
+//       height: 95vh;
+//       border-radius: 50px;
+//       margin: 20px auto;
+//       position: sticky;
+//       top: 0;
+//     }
+//     &-agenda {
+//       margin: 20px auto;
+//       width: 80vw;
+//       height: 85vh;
+//       background-color: rgba(0, 0, 0, 0.8);
+//       backdrop-filter: blur(8px);
+//       border-radius: 50px;
+//       position: sticky;
+//       top: 0;
+//       &-box {
+//         padding: 20px;
+//         border-radius: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 100px auto;
+//         width: fit-content;
+//         h2 {
+//           margin-bottom: 40px;
+//         }
+//         form {
+//           display: flex;
+//           flex-direction: column;
+//           align-content: start;
+//           gap: 20px;
+
+//           input {
+//             width: 340px;
+//             height: 50px;
+//             margin: 0 auto;
+//             padding: 8px;
+//             border: 0;
+//             border-bottom: 1px solid white;
+//             background-color: transparent;
+//             border-radius: 0;
+//             color: white;
+//             &::placeholder {
+//               color: white;
+//             }
+
+//             &:focus {
+//               outline: none;
+//             }
+//           }
+//           select {
+//             width: 340px;
+//             height: 40px;
+//             color: white;
+//             margin: 0 auto;
+//             padding: 8px;
+//             border: 0;
+//             border-bottom: 1px solid white;
+//             background-color: transparent;
+//             border-radius: 0;
+//             &:focus {
+//               outline: none;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// // button {
+// //   margin: 20px auto;
+// //   background-color: transparent;
+// //   border: 0;
+// //   border: 2px solid white;
+// //   color: white;
+// //   border-radius: 35px;
+// //   padding: 5px 45px;
+// //   font-weight: lighter;
+// // }
+// @font-face {
+//   font-family: "MontserratARM";
+//   src: url("./font/Montserratarm-Light.otf");
+// }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Armenian:wght@100..900&display=swap");
 
 .Eclipse {
+  overflow: hidden; /* Ограничиваем прокрутку для всего компонента */
+
   &__content {
-    font-family: "MontserratARM";
+    overflow: hidden; /* Ограничиваем прокрутку для контента */
+    position: relative;
+
+    &-header,
+    &-church,
+    &-resturant,
+    &-couple,
+    &-couple2 {
+      position: sticky;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      border-radius: 0; /* Убираем закругления */
+      z-index: 0;
+    }
+
     &-header {
       background: url("../../../public/images/Eclipse/1.jpg");
-      background-size: cover;
-      width: 95vw;
-      height: 95vh;
-      border-radius: 50px;
       display: flex;
       justify-content: center;
-      margin: 20px auto;
-      padding-top: 200px;
-      z-index: -1;
-      left: 40px;
+      align-items: center;
 
       h1 {
         color: black;
         font-family: "MontserratARM";
         font-weight: lighter;
+        text-align: center;
       }
     }
 
@@ -30,8 +303,8 @@
       background-color: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(10px);
       border-radius: 50px;
-      z-index: 1;
       position: relative;
+
       &-text {
         position: relative;
         z-index: 1;
@@ -41,12 +314,14 @@
         color: white;
         margin: 150px auto;
         width: 50%;
+
         h2 {
           margin-bottom: 40px;
           font-family: "MontserratARM";
           font-weight: lighter;
           font-size: 32px;
         }
+
         p {
           font-family: "MontserratARM";
           width: 50%;
@@ -54,6 +329,7 @@
           font-size: 16px;
           font-weight: lighter;
         }
+
         h3 {
           font-family: "MontserratARM";
           font-size: 32px;
@@ -61,14 +337,11 @@
         }
       }
     }
+
     &-church {
       background: url("../../../public/images/Eclipse/2.jpg");
-      background-size: cover;
-      width: 95vw;
-      height: 95vh;
-      border-radius: 50px;
-      margin: 20px auto;
     }
+
     &-churchText {
       margin: 20px auto;
       width: 80vw;
@@ -76,7 +349,9 @@
       background-color: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(8px);
       border-radius: 50px;
-      z-index: 2;
+      position: sticky;
+      top: 0;
+
       &-box {
         padding: 20px;
         border-radius: 20px;
@@ -84,22 +359,21 @@
         color: white;
         margin: 150px auto;
         width: fit-content;
+
         h2 {
           margin-bottom: 40px;
         }
+
         p {
           margin-bottom: 20px;
         }
       }
     }
+
     &-resturant {
       background: url("../../../public/images/Eclipse/3.jpg");
-      background-size: cover;
-      width: 95vw;
-      height: 95vh;
-      border-radius: 50px;
-      margin: 20px auto;
     }
+
     &-resturantText {
       margin: 20px auto;
       width: 80vw;
@@ -107,7 +381,9 @@
       background-color: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(8px);
       border-radius: 50px;
-      z-index: 3;
+      position: sticky;
+      top: 0;
+
       &-box {
         padding: 20px;
         border-radius: 20px;
@@ -115,22 +391,21 @@
         color: white;
         margin: 150px auto;
         width: fit-content;
+
         h2 {
           margin-bottom: 40px;
         }
+
         p {
           margin-bottom: 20px;
         }
       }
     }
+
     &-couple {
       background: url("../../../public/images/Eclipse/4.jpg");
-      background-size: cover;
-      width: 95vw;
-      height: 95vh;
-      border-radius: 50px;
-      margin: 20px auto;
     }
+
     &-dressCode {
       margin: 20px auto;
       width: 80vw;
@@ -138,7 +413,9 @@
       background-color: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(8px);
       border-radius: 50px;
-      z-index: 4;
+      position: sticky;
+      top: 0;
+
       &-box {
         padding: 20px;
         border-radius: 20px;
@@ -146,9 +423,11 @@
         color: white;
         margin: 100px auto;
         width: fit-content;
+
         h2 {
           margin-bottom: 40px;
         }
+
         p {
           &:nth-child(2) {
             margin-bottom: 40px;
@@ -161,14 +440,11 @@
         }
       }
     }
+
     &-couple2 {
       background: url("../../../public/images/Eclipse/5.jpg");
-      background-size: cover;
-      width: 95vw;
-      height: 95vh;
-      border-radius: 50px;
-      margin: 20px auto;
     }
+
     &-agenda {
       margin: 20px auto;
       width: 80vw;
@@ -176,7 +452,9 @@
       background-color: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(8px);
       border-radius: 50px;
-      z-index: 5;
+      position: sticky;
+      top: 0;
+
       &-box {
         padding: 20px;
         border-radius: 20px;
@@ -184,9 +462,11 @@
         color: white;
         margin: 100px auto;
         width: fit-content;
+
         h2 {
           margin-bottom: 40px;
         }
+
         form {
           display: flex;
           flex-direction: column;
@@ -203,6 +483,7 @@
             background-color: transparent;
             border-radius: 0;
             color: white;
+
             &::placeholder {
               color: white;
             }
@@ -211,6 +492,7 @@
               outline: none;
             }
           }
+
           select {
             width: 340px;
             height: 40px;
@@ -221,6 +503,7 @@
             border-bottom: 1px solid white;
             background-color: transparent;
             border-radius: 0;
+
             &:focus {
               outline: none;
             }
@@ -231,16 +514,16 @@
   }
 }
 
-button {
-  margin: 20px auto;
-  background-color: transparent;
-  border: 0;
-  border: 2px solid white;
-  color: white;
-  border-radius: 35px;
-  padding: 5px 45px;
-  font-weight: lighter;
-}
+// button {
+//   margin: 20px auto;
+//   background-color: transparent;
+//   border: 0;
+//   border: 2px solid white;
+//   color: white;
+//   border-radius: 35px;
+//   padding: 5px 45px;
+//   font-weight: lighter;
+// }
 @font-face {
   font-family: "MontserratARM";
   src: url("./font/Montserratarm-Light.otf");

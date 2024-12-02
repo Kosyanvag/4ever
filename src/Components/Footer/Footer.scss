@@ -2,7 +2,7 @@
 
 .Footer {
   background-color: var(--white);
-
+  // display: flex;
   h6 {
     margin: 0 auto;
     text-align: center;
@@ -27,19 +27,14 @@
     align-items: start;
     gap: clamp(10px, 150px, 150px);
     padding: clamp(10px, 100px, 70px) 10px;
-    // font-family: "Chakra Petch";
     background-color: var(--white);
     border-top: 5px solid var(--lightGold);
-
-    
-
+    margin: 0 auto;
     &-logo {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
-      width: 300px;
-
       img {
         width: 300px;
       }
@@ -56,7 +51,6 @@
           }
           a {
             color: var(--lightGold);
-            
           }
         }
       }
@@ -80,15 +74,11 @@
         text-align: center;
 
         h2 {
-     
           margin-bottom: 20px;
           font-weight: 800;
-
-        
         }
         p {
           font-size: 20px;
-          
         }
       }
     }
@@ -103,9 +93,6 @@
       &-logo {
         margin-top: 20px;
         &-contacts {
- 
-
-    
         }
         &-support {
           width: 90%;

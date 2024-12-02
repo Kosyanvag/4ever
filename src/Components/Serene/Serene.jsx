@@ -33,7 +33,6 @@ export default function Serene() {
       <div className="Serene__content">
         <div className="Serene__content-title">
           <div className="Serene__content-title-left">
-            
             <h2>ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԵՐ</h2>
             <h1>A & M</h1>
             <h3>
@@ -143,7 +142,7 @@ export default function Serene() {
 
           <form action="https://api.web3forms.com/submit" method="POST">
             <select name="Հյուրերի քանակ" required>
-              <option value="Հյուրերի քանակ" selected disabled>
+              <option value="Հյուրերի քանակ" selected disabled hidden>
                 Նշեք հյուրերի քանակը
               </option>
               <option value="1">1</option>

@@ -114,7 +114,7 @@ export default function Embrace() {
               />
               <div className="data">
                 <select name="ՀյուրերիՔանակ" required>
-                  <option value="Նշեք հյուրերի քանակը" selected disabled>
+                  <option value="Նշեք հյուրերի քանակը" selected disabled hidden>
                     Նշեք հյուրերի քանակը
                   </option>
                   <option value="1">1</option>
@@ -125,8 +125,6 @@ export default function Embrace() {
                   <option value="6">6</option>
                   <option value="7">7</option>
                   <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
                   <option value="Չենք կարողանա գալ">Չենք կարողանա գալ</option>
                 </select>
                 <input
@@ -137,7 +135,7 @@ export default function Embrace() {
                 <input
                   type="number"
                   name="Հեռախոսահամար"
-                  placeholder="Ձեր Հեռախոսահամարը"
+                  placeholder="Հեռախոսահամար"
                   required
                 />
               </div>
