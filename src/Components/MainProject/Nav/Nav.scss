@@ -55,14 +55,17 @@
           a {
             color: var(--lightGold);
             text-decoration: none;
+         
           }
 
           a.active {
-            width: 140px; // Ширина активной ссылки
+            width: 140px; 
             height: 60px;
-            background-color: var(--lightGold);
-            color: var(--green);
-            padding: 8px;
+            background-color: var(--green);
+            border: 3px solid var(--lightGold);
+            color: var(--lightGold);
+         
+            padding: 8px 12px;
             border-radius: 12px; // Скругленные углы
             transition: background-color 0.2s linear; // Плавный переход фона
           }
@@ -84,6 +87,40 @@
         }
       }
     }
+    &-language{
+      display: flex;
+      align-items: center;
+      border: 3px solid var(--lightGold);
+      border-radius: 12px;
+      padding: 8px;
+  
+      img{
+        width: 24px;
+      }
+      select{
+        font-size: 16px;
+      
+        color: var(--lightGold);
+        padding: 6px 8px;
+        background-color: transparent;
+        border: 0;
+       
+        &:focus{
+          outline: none;
+          
+
+        }
+        option{
+          width: 300px;
+          border: 2px solid red;
+          color: var(--lightGold);
+          background-color: var(--green);
+         
+      
+       
+      }
+    }
+    
   }
 
   @media (max-width: 1300px) {
@@ -188,4 +225,4 @@
       }
     }
   }
-}
+}}

@@ -40,7 +40,7 @@
       }
       &-contacts {
         font-family: "Bellota Text";
-        text-align: center;
+        text-align: justify;
         ul {
           display: flex;
           flex-direction: column;
@@ -51,6 +51,7 @@
           }
           a {
             color: var(--lightGold);
+           
           }
         }
       }
@@ -59,7 +60,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
-        margin-top: 50px;
+        margin: 50px 0;
         font-family: "Bellota Text";
 
         img {
@@ -71,7 +72,8 @@
         width: 33%;
         color: var(--lightGold);
         font-family: "Bellota Text";
-        text-align: center;
+        text-align: left;
+     
 
         h2 {
           margin-bottom: 20px;

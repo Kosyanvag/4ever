@@ -7,17 +7,25 @@ export default function Footer() {
           <img src="./images/Logo/logo.jpg" alt="logo" />
         </div>
         <div className="Footer__content-logo-contacts">
-        <ul>
-            <li><a href="#about" >Заказать</a></li>
-            <li><a href="#sliders" >Новости</a></li>
-            <li><a href="#products" >Приглашения</a></li>
-            <li><a href="#footer" >О нас</a></li>
+          <ul>
+            <li>
+              <a href="#about">Заказать</a>
+            </li>
+            <li>
+              <a href="#sliders">Новости</a>
+            </li>
+            <li>
+              <a href="#products">Приглашения</a>
+            </li>
+            <li>
+              <a href="#footer">О нас</a>
+            </li>
           </ul>
         </div>
         <div className="Footer__content-logo-support">
           <h2>Обратная связь:</h2>
           <p>
-            Ваше мнение важно для нас ! <br /> Если у вас возникли вопросы или
+            Ваше мнение важно для нас! <br /> Если у вас возникли вопросы или
             предложения, свяжитесь с нами, и мы с радостью поможем. <br /> 4ever
             - всегда на связи для вашего удобства!
           </p>
@@ -35,8 +43,9 @@ export default function Footer() {
         </a>
       </div>
       <h6>
-        <a className="email" >
-          4ever.ge
+        <a className="email">
+          <img src="./images/Logo/copyrights.png" alt="" />
+            2024 4ever. Все права защищены.
         </a>
       </h6>
     </footer>

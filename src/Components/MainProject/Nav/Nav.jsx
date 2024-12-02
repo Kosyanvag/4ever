@@ -109,7 +109,18 @@ export default function Nav() {
                 <p>
                   <a href="tel:+995551555322">+ 995 551 555 322</a>
                 </p>
+                
               </div>
+             <div className="Nav__content-language">
+             <img src="./images/Logo/language.png" alt="language" /> 
+             
+             <select name="" id="">
+              <option value="ru">Рус</option>
+              <option value="am">Հայ</option>
+             
+             </select>
+             </div>
+        
               
             </div>
           </nav>
