@@ -10,7 +10,7 @@ const source = [
   },
   {
     id: 2,
-    img: "./images/Sliders/autumn.png",
+    img: "./images/Sliders/winter.png",
   },
   {
     id: 3,
