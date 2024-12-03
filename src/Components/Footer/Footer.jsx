@@ -27,9 +27,9 @@ export default function Footer() {
         </div>
         <div className="Footer__content-logo-support">
           <h2>{t("footer.footerSuport")}</h2>
-          <p>
-          {t("footer.footerText")}
-          </p>
+          <p>{t("footer.footerText")}</p>
+          <p>{t("footer.footerTextTwo")}</p>
+          <p>{t("footer.footerTextThree")}</p>
         </div>
       </div>
       <div className="Footer__content-logo-socials">

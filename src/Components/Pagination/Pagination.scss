@@ -23,6 +23,7 @@
         // border-radius: 30px;
         margin: 20px;
         opacity: 0.9;
+        transition: all 0.5s;
         &:hover {
           scale: 0.94;
           transition: all 0.5s;
@@ -57,7 +58,7 @@
         margin: 0 auto;
         padding: 5px;
         background-color: var(--green);
-        border-radius: 25px;
+        // border-radius: 25px;
         border: 2px solid var(--lightGold);
 
         button {
@@ -69,7 +70,7 @@
           color: var(--white);
           scale: 1;
           font-family: "Bellota Text";
-      
+   
           background-color: var(--green);
           transition: 0.2s linear;
         }
@@ -81,9 +82,10 @@
         // }
         button:nth-child(2) {
           background-color: var(--lightGold);
+
           height: 32px;
           margin-left: 14px;
-          border-radius: 30px;
+          // border-radius: 30px;
           // border-top-right-radius: 25px;
           // border-bottom-right-radius: 25px;
  
