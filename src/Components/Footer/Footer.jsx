@@ -1,5 +1,8 @@
 import "./Footer.scss";
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="Footer" id="footer">
       <div className="Footer__content">
@@ -9,25 +12,23 @@ export default function Footer() {
         <div className="Footer__content-logo-contacts">
           <ul>
             <li>
-              <a href="#about">Заказать</a>
+              <a href="#about">{t("footer.order")}</a>
             </li>
             <li>
-              <a href="#sliders">Новости</a>
+              <a href="#sliders">{t("footer.news")}</a>
             </li>
             <li>
-              <a href="#products">Приглашения</a>
+              <a href="#products">{t("footer.invite")}</a>
             </li>
             <li>
-              <a href="#footer">О нас</a>
+              <a href="#footer">{t("footer.about")}</a>
             </li>
           </ul>
         </div>
         <div className="Footer__content-logo-support">
-          <h2>Обратная связь:</h2>
+          <h2>{t("footer.footerSuport")}</h2>
           <p>
-            Ваше мнение важно для нас! <br /> Если у вас возникли вопросы или
-            предложения, свяжитесь с нами, и мы с радостью поможем. <br /> 4ever
-            - всегда на связи для вашего удобства!
+          {t("footer.footerText")}
           </p>
         </div>
       </div>
@@ -45,7 +46,7 @@ export default function Footer() {
       <h6>
         <a className="email">
           <img src="./images/Logo/copyrights.png" alt="" />
-            2024 4ever. Все права защищены.
+          {t("footer.footerCopy")}
         </a>
       </h6>
     </footer>

@@ -11,7 +11,7 @@ const source = [
     title: "Serene",
     desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
     price: "149 Gel",
-    order: '{t("products.productsOrder")}',
+    order: 'Заказать',
   },
   {
     id: 2,
