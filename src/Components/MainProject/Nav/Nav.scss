@@ -17,6 +17,7 @@
     padding: 12px 120px;
     // font-family: "Chakra Petch";
     border-bottom: 5px solid var(--lightGold);
+  
 
     &-logo {
       img {
@@ -107,22 +108,28 @@
     }
 
     @media (max-width: 1300px) {
-      &__content {
-        padding: 10px 50px;
-        &-block {
-          ul {
-            gap: 30px;
+      .Nav{
+        &__content {
+        
+          padding: 10px 50px;
+          
+          &-block {
+            ul {
+              gap: 30px;
+            }
           }
         }
       }
     }
 
     @media (max-width: 1100px) {
-      &__content {
-        padding: 10px 20px;
-        &-block {
-          ul {
-            gap: 10px;
+      .Nav{
+        &__content {
+          padding: 10px 20px;
+          &-block {
+            ul {
+              gap: 10px;
+            }
           }
         }
       }
@@ -130,19 +137,27 @@
 
     @media (max-width: 840px) {
       .Nav {
+
         &__content {
+          width: 90%;
           padding: 10px 20px;
+
+         
           &-logo {
+          
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content:space-between;
+
+    
             width: 100%;
             svg {
               display: block;
               font-size: 30px;
-              margin-right: 10px;
+              margin-left: 10px;
               color: var(--lightGold);
               cursor: pointer;
+              
             }
           }
           &-block {
@@ -177,8 +192,11 @@
   padding: 10px;
   &__content {
     width: 100%;
+  
     text-align: center;
     transition: 1s linear;
+    text-transform: uppercase ;
+
 
     &-language {
       display: flex;
@@ -186,7 +204,7 @@
       align-items: center;
       border: 2px solid var(--lightGold);
       border-radius: 8px;
-      padding: 0 8px;
+      // padding: 0 8px;
       width: 100px;
       height: 40px;
       margin: 0 auto;
@@ -200,7 +218,7 @@
       font-size: 14px;
         font-family: "Bellota Text";
         color: var(--lightGold);
-        padding: 6px 8px;
+        padding: 6px 10px;
         background-color: transparent;
         border: 0;
         
@@ -250,6 +268,31 @@
             color: var(--lightGold);
             margin-top: 20px;
           }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .Nav{
+    &__content {
+      padding: 10px 20px;
+   
+    
+      &-logo {
+    
+        img {
+          width: 140px;
+        }
+        svg {
+          display: none;
+        }
+      }
+      &-block {
+
+   
+        ul {
+          gap: 10px;
         }
       }
     }

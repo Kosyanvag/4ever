@@ -56,15 +56,15 @@
         margin: 0 auto;
         padding: 5px;
         background-color: var(--green);
-        border-radius: 12px;
-        border: 3px solid var(--lightGold);
+        border-radius: 25px;
+        border: 2px solid var(--lightGold);
 
         button {
           width: 120px;
           height: 36px;
           font-size: 16px;
           border: 0;
-          border-radius: 8px;
+        
           color: var(--white);
           scale: 1;
           font-family: "Bellota Text";
@@ -72,11 +72,19 @@
           background-color: var(--green);
           transition: 0.2s linear;
         }
+        // button:nth-child(1) {
+        //   border-top-left-radius: 25px;
+        //   border-bottom-left-radius: 25px;
+ 
+
+        // }
         button:nth-child(2) {
           background-color: var(--lightGold);
           height: 32px;
-          margin-left: 10px;
-          // border-radius: 30px;
+          margin-left: 14px;
+          border-radius: 30px;
+          // border-top-right-radius: 25px;
+          // border-bottom-right-radius: 25px;
  
           &:hover {
             scale: 0.94;
