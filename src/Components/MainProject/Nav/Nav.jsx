@@ -66,7 +66,6 @@ export default function Nav() {
                 <a href="#about">
                   <img src="./images/Main/Nav/logo2.jpg" alt="logo" />
                 </a>
-
                 <RxHamburgerMenu onClick={handleMenuToggle} />
               </div>
               <div className="Nav__content-block">
@@ -112,10 +111,9 @@ export default function Nav() {
               </div>
               <div className="Nav__content-language">
                 <img src="./images/Logo/language.png" alt="language" />
-
                 <select name="" id="">
-                  <option value="ru">Рус</option>
-                  <option value="am">Հայ</option>
+                  <option value="ru">AM</option>
+                  <option value="am">RU</option>
                 </select>
               </div>
             </div>
@@ -127,6 +125,18 @@ export default function Nav() {
             ref={menuRef}
           >
             <div className="burgerMenu__content">
+
+            <div className="burgerMenu__content-language">
+                <img src="./images/Logo/language.png" alt="language" />
+                <select name="" id="">
+                  <option value="ru">AM</option>
+                  <option value="am">RU</option>
+                </select>
+              </div>
+
+
+              
+
               <button>
                 <a href="tel:+995551555322">+ 995 551 555 322</a>
               </button>
