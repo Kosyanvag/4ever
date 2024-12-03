@@ -2,7 +2,14 @@ import { useState, useEffect, useRef } from "react";
 import "./Nav.scss";
 import { RxHamburgerMenu } from "react-icons/rx";
 
+import { useTranslation } from "react-i18next";
 export default function Nav() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang); // Меняем язык
+    localStorage.setItem("i18nextLng", lang); // Сохраняем язык в localStorage
+  };
   const [activeSection, setActiveSection] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -75,7 +82,7 @@ export default function Nav() {
                       href="#about"
                       className={activeSection === "about" ? "active" : ""}
                     >
-                      Заказать
+                      {t("nav.order")}
                     </a>
                   </li>
                   <li>
@@ -83,7 +90,7 @@ export default function Nav() {
                       href="#sliders"
                       className={activeSection === "sliders" ? "active" : ""}
                     >
-                      Новости
+                      {t("nav.news")}
                     </a>
                   </li>
                   <li>
@@ -91,7 +98,7 @@ export default function Nav() {
                       href="#products"
                       className={activeSection === "products" ? "active" : ""}
                     >
-                      Приглашения
+                      {t("nav.invite")}
                     </a>
                   </li>
                   <li>
@@ -99,7 +106,7 @@ export default function Nav() {
                       href="#footer"
                       className={activeSection === "footer" ? "active" : ""}
                     >
-                      О нас
+                      {t("nav.about")}
                     </a>
                   </li>
                 </ul>
@@ -111,9 +118,12 @@ export default function Nav() {
               </div>
               <div className="Nav__content-language">
                 <img src="./images/Logo/language.png" alt="language" />
-                <select name="" id="">
-                  <option value="ru">AM</option>
-                  <option value="am">RU</option>
+                <select
+                  value={i18n.language} // Привязываем значение селектора к текущему языку
+                  onChange={(e) => changeLanguage(e.target.value)} // Обработчик выбора языка
+                >
+                  <option value="ru">RU</option>
+                  <option value="am">AM</option>
                 </select>
               </div>
             </div>
@@ -125,17 +135,16 @@ export default function Nav() {
             ref={menuRef}
           >
             <div className="burgerMenu__content">
-
-            <div className="burgerMenu__content-language">
+              <div className="burgerMenu__content-language">
                 <img src="./images/Logo/language.png" alt="language" />
-                <select name="" id="">
-                  <option value="ru">AM</option>
-                  <option value="am">RU</option>
+                <select
+                  value={i18n.language} // Привязываем значение селектора к текущему языку
+                  onChange={(e) => changeLanguage(e.target.value)} // Обработчик выбора языка
+                >
+                  <option value="ru">RU</option>
+                  <option value="am">AM</option>
                 </select>
               </div>
-
-
-              
 
               <button>
                 <a href="tel:+995551555322">+ 995 551 555 322</a>
