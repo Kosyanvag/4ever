@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Products.scss";
 import Pagination from "../../Pagination/Pagination";
 import ReactPaginate from "react-paginate";
+import { useTranslation } from "react-i18next";
 
 const source = [
   {
@@ -10,7 +11,7 @@ const source = [
     title: "Serene",
     desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
     price: "149 Gel",
-    order: "Заказать",
+    order: '{t("products.productsOrder")}',
   },
   {
     id: 2,
@@ -96,6 +97,7 @@ const source = [
 ];
 
 export default function Products() {
+   const { t } = useTranslation();
   const [data, setData] = useState(source);
   const [page, setPage] = useState(1);
   const [perPage, setPerPage] = useState(4);

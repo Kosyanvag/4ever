@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./About.scss";
 import Modal from "../Modal/Modal";
 
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";  //////////////////////
 export default function About() {
-  const { t } = useTranslation();
+  const { t } = useTranslation();  //////////////////////////////
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsOpen(true);
@@ -20,7 +20,7 @@ export default function About() {
           <h1>
             <span>4</span>ever
           </h1>
-          <p>{t("about.aboutText")}</p>
+          <p>{t("about.aboutText")}</p> 
           <button onClick={handleClick}>{t("about.aboutOrder")}</button>
         </div>
         <div className="About__content-right">

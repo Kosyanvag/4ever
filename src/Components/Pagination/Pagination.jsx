@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Order from "../MainProject/Order/Order";
+import { useTranslation } from "react-i18next"; 
 import "./Pagination.scss";
 
 export default function Pagination({ total }) {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
