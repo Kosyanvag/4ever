@@ -160,7 +160,7 @@ export default function Nav() {
                       onClick={() => setIsMenuOpen(false)}
                       className={activeSection === "about" ? "active" : ""}
                     >
-                      Заказать
+                      {t("nav.order")}
                     </a>
                   </li>
                   <li>
@@ -169,7 +169,7 @@ export default function Nav() {
                       onClick={() => setIsMenuOpen(false)}
                       className={activeSection === "sliders" ? "active" : ""}
                     >
-                      Новости
+                      {t("nav.news")}
                     </a>
                   </li>
                   <li>
@@ -178,7 +178,7 @@ export default function Nav() {
                       onClick={() => setIsMenuOpen(false)}
                       className={activeSection === "products" ? "active" : ""}
                     >
-                      Приглашения
+                      {t("nav.invite")}
                     </a>
                   </li>
                   <li>
@@ -187,7 +187,7 @@ export default function Nav() {
                       onClick={() => setIsMenuOpen(false)}
                       className={activeSection === "footer" ? "active" : ""}
                     >
-                      О нас
+                      {t("nav.about")}
                     </a>
                   </li>
                 </ul>

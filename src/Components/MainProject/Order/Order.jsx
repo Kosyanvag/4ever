@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./Order.scss";
 
 export default function Order({ cancelModal, item }) {
+  const { t } = useTranslation();
   const handleClickOutside = (e) => {
     if (e.target.classList.contains("Order")) {
       cancelModal();
@@ -27,17 +29,29 @@ export default function Order({ cancelModal, item }) {
         <div>
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
-        <h2>Оформление заказа для {item.title}</h2>
+        <h2>
+          {t("order.title")} {item.title}
+        </h2>
         <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="Product" value={item.title} />
-          <input type="text" placeholder="Имя Фамилия" name="Name" required />
-          <input type="tel" placeholder="Телефон" name="PhoneNumber" required />
+          <input
+            type="text"
+            placeholder={t("order.name")}
+            name="Name"
+            required
+          />
+          <input
+            type="tel"
+            placeholder={t("order.phone")}
+            name="PhoneNumber"
+            required
+          />
           <input
             type="hidden"
             name="access_key"
             value="a36cd1fd-35a3-4d54-ad0e-3d86cd1cd265"
           ></input>
-          <button type="submit">Заказать</button>
+          <button type="submit">{t("order.order")}</button>
         </form>
       </div>
     </div>

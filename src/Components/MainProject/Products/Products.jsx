@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Products.scss";
 import Pagination from "../../Pagination/Pagination";
 import ReactPaginate from "react-paginate";
@@ -9,98 +9,112 @@ const source = [
     id: 1,
     img: "./images/Serene/2_cr.jpg",
     title: "Serene",
-    desc: '"Спокойствие в каждой линии, красота в каждом мгновении."',
-    price: "149 Gel",
-    order: 'Заказать',
+    desc: "products.serene.quote",
+    price: "products.serene.price",
+    rate: "products.serene.rate",
+    order: "products.serene.order",
   },
   {
     id: 2,
     img: "./images/Bliss/wedding(1).jpg",
     title: "Bliss",
-    desc: '"Безмятежная радость, наполненная любовью"',
-    price: "79 Gel",
-    order: "Заказать",
+    desc: "products.bliss.quote",
+    price: "products.bliss.price",
+    rate: "products.bliss.rate",
+    order: "products.bliss.order",
   },
   {
     id: 3,
     img: "./images/Eternal/wedding(1).jpg",
     title: "Eternal",
-    desc: '"Любовь, которая не знает конца."',
-    price: "129 Gel",
-    order: "Заказать",
+    desc: "products.eternal.quote",
+    price: "products.eternal.price",
+    rate: "products.eternal.rate",
+    order: "products.eternal.order",
   },
   {
     id: 4,
     img: "./images/Pure/man(1).jpg",
     title: "Pure",
-    desc: '"Восторг, который захватывает сердце и душу."',
-    price: "99 Gel",
-    order: "Заказать",
+    desc: "products.pure.quote",
+    price: "products.pure.price",
+    rate: "products.pure.rate",
+    order: "products.pure.order",
   },
   {
     id: 5,
     img: "./images/Embrace/wedding.jpg",
     title: "Embrace",
-    desc: '"Тепло объятий, которые связывают сердца навеки."',
-    price: "89 Gel",
-    order: "Заказать",
+    desc: "products.embrace.quote",
+    price: "products.embrace.price",
+    rate: "products.embrace.rate",
+    order: "products.embrace.order",
   },
   {
     id: 6,
     img: "./images/Velvet/2_cr.jpg",
     title: "Velvet",
-    desc: '"Мягкость и элегантность, как прикосновение любви."',
-    price: "149 Gel",
-    order: "Заказать",
+    desc: "products.velvet.quote",
+    price: "products.velvet.price",
+    rate: "products.velvet.rate",
+    order: "products.velvet.order",
   },
   {
     id: 7,
     img: "./images/Harmony/wed(1).jpg",
     title: "Harmony",
-    desc: '"Гармония - это слияние души и сердца в одном ритме."',
-    price: "109 Gel",
-    order: "Заказать",
+    desc: "products.harmony.quote",
+    price: "products.harmony.price",
+    rate: "products.harmony.rate",
+    order: "products.harmony.order",
   },
   {
     id: 8,
     img: "./images/Radiance/wedding_cr.jpg",
     title: "Radiance",
-    desc: '"Сияние, которое отражает чистоту и красоту вашей любви."',
-    price: " 159 Gel",
-    order: "Заказать",
+    desc: "products.radiance.quote",
+    price: "products.radiance.price",
+    rate: "products.radiance.rate",
+    order: "products.radiance.order",
   },
   {
     id: 9,
     img: "./images/Siluette/Wedding_cr.jpg",
     title: "Siluette",
-    desc: '"Силуэт любви, который никогда не исчезнет"',
-    price: " 139 Gel",
-    order: "Заказать",
+    desc: "products.siluette.quote",
+    price: "products.siluette.price",
+    rate: "products.siluette.rate",
+    order: "products.siluette.order",
   },
 
   {
     id: 10,
     img: "./images/Spark/wedding(1)_cr.jpg",
     title: "Spark",
-    desc: '"Искра, с которой начинается ваше вечное пламя любви"',
-    price: " 129 Gel",
-    order: "Заказать",
+    desc: "products.spark.quote",
+    price: "products.spark.price",
+    rate: "products.spark.rate",
+    order: "products.spark.order",
   },
-  // {
-  //   id: 11,
-  //   img: "./images/Eclipse/1.jpg",
-  //   title: "Eclipse",
-  //   desc: "“Любовь, как затмение, редка и прекрасна.”",
-  //   price: "Gel",
-  //   order: "Заказать",
-  // },
 ];
 
 export default function Products() {
-   const { t } = useTranslation();
-  const [data, setData] = useState(source);
+  const { t, i18n } = useTranslation();
+  const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
-  const [perPage, setPerPage] = useState(4);
+  const [perPage] = useState(4);
+
+  // Обновляем переводы при изменении языка
+  useEffect(() => {
+    const translatedData = source.map((item) => ({
+      ...item,
+      desc: t(item.desc),
+      price: t(item.price),
+      rate: t(item.rate),
+      order: t(item.order),
+    }));
+    setData(translatedData);
+  }, [t, i18n.language]); // Следим за изменениями языка
 
   const total = data.slice((page - 1) * perPage, page * perPage);
 

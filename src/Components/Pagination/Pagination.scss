@@ -50,10 +50,10 @@
         color: var(--lightGold);
       }
       > div {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
         width: 90%;
         margin: 0 auto;
         padding: 5px;
@@ -66,26 +66,20 @@
           height: 34px;
           font-size: 16px;
           border: 0;
-        
+
           color: var(--white);
           scale: 1;
           font-family: "Bellota Text";
-   
+
           background-color: var(--green);
           transition: 0.2s linear;
-         
-
-         
-          
         }
 
-        
-        // button:nth-child(1) {
-        //   border-top-left-radius: 25px;
-        //   border-bottom-left-radius: 25px;
- 
-
-        // }
+        button:nth-child(1) {
+          span {
+            margin-left: 3px;
+          }
+        }
         button:nth-child(2) {
           background-color: var(--white);
           color: var(--green);
@@ -95,7 +89,7 @@
           // border-radius: 30px;
           // border-top-right-radius: 25px;
           // border-bottom-right-radius: 25px;
- 
+
           &:hover {
             scale: 0.94;
             transition: 0.2s linear;
