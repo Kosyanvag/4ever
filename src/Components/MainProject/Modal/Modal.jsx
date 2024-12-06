@@ -1,7 +1,8 @@
 import "./Modal.scss";
 import { useEffect } from "react";
-
+import { useTranslation } from "react-i18next";
 export default function Modal({ cancelModal }) {
+  const { t } = useTranslation();
   const handleClickOutside = (e) => {
     if (e.target.classList.contains("Modal")) {
       cancelModal();
@@ -27,11 +28,11 @@ export default function Modal({ cancelModal }) {
         <div>
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
-        <h2>Оформление заказа </h2>
+        <h2>{t("modal.title")}</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
           <select name="Design" required>
             <option value="" selected disabled hidden>
-              Выберите ваш дизайн
+              {t("modal.design")}
             </option>
             <option value="Serene">Serene</option>
             <option value="Bliss">Bliss</option>
@@ -45,8 +46,18 @@ export default function Modal({ cancelModal }) {
             <option value="Spark">Spark</option>
             <option value="Eclipse">Eclipse</option>
           </select>
-          <input type="text" placeholder="Имя Фамилия" name="Name" required />
-          <input type="tel" placeholder="Tелефон" name="PhoneNumber" required />
+          <input
+            type="text"
+            placeholder={t("modal.name")}
+            name="Name"
+            required
+          />
+          <input
+            type="tel"
+            placeholder={t("modal.phone")}
+            name="PhoneNumber"
+            required
+          />
           <input
             type="hidden"
             name="access_key"

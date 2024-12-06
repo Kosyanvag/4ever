@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Order from "../MainProject/Order/Order";
-import { useTranslation } from "react-i18next"; 
+import { useTranslation } from "react-i18next";
 import "./Pagination.scss";
 
 export default function Pagination({ total }) {
@@ -31,7 +31,10 @@ export default function Pagination({ total }) {
                 <p>{elem.desc}</p>
               </Link>
               <div>
-                <button>{elem.price}</button>
+                <button>
+                  {elem.price}
+                  <span>{elem.rate}</span>
+                </button>
                 <button onClick={() => handleClick(elem)}>{elem.order}</button>
               </div>
             </div>
