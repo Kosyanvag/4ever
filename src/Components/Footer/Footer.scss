@@ -2,13 +2,13 @@
 
 .Footer {
   background-color: var(--white);
-  // display: flex;
   h6 {
     margin: 0 auto;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 0 50px;
     font-family: "Bellota Text";
-    margin-bottom: 50px;
+    height: 50px;
+    font-weight: 400;
 
     a {
       color: var(--lightGold);
@@ -51,7 +51,6 @@
           }
           a {
             color: var(--lightGold);
-           
           }
         }
       }
@@ -73,7 +72,6 @@
         color: var(--lightGold);
         font-family: "Bellota Text";
         text-align: left;
-     
 
         h2 {
           margin-bottom: 20px;

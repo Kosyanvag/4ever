@@ -104,7 +104,7 @@ export default function Products() {
   const [page, setPage] = useState(1);
   const [perPage] = useState(4);
 
-  // Обновляем переводы при изменении языка
+
   useEffect(() => {
     const translatedData = source.map((item) => ({
       ...item,
@@ -114,7 +114,7 @@ export default function Products() {
       order: t(item.order),
     }));
     setData(translatedData);
-  }, [t, i18n.language]); // Следим за изменениями языка
+  }, [t, i18n.language]); 
 
   const total = data.slice((page - 1) * perPage, page * perPage);
 
@@ -128,7 +128,7 @@ export default function Products() {
         <Pagination total={total} />
         <ReactPaginate
           breakLabel="..."
-          nextLabel=">"
+          nextLabel= ">"
           onPageChange={handlePageClick}
           pageRangeDisplayed={5}
           pageCount={Math.ceil(data.length / perPage)}

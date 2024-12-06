@@ -35,9 +35,11 @@ export default function Pagination({ total }) {
                   {elem.price}
                   <span>{elem.rate}</span>
                 </button>
+               
                 <button onClick={() => handleClick(elem)}>{elem.order}</button>
               </div>
             </div>
+            
           </div>
         );
       })}

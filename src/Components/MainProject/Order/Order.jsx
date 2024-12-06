@@ -30,7 +30,7 @@ export default function Order({ cancelModal, item }) {
           <img onClick={cancelModal} src="./images/Modal/x.svg" alt="cancel" />
         </div>
         <h2>
-          {t("order.title")} {item.title}
+        {item.title} {t("order.title")} 
         </h2>
         <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="Product" value={item.title} />
