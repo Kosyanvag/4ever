@@ -63,7 +63,7 @@
 
         button {
           width: 120px;
-          height: 36px;
+          height: 34px;
           font-size: 16px;
           border: 0;
         
@@ -73,7 +73,13 @@
    
           background-color: var(--green);
           transition: 0.2s linear;
+         
+
+         
+          
         }
+
+        
         // button:nth-child(1) {
         //   border-top-left-radius: 25px;
         //   border-bottom-left-radius: 25px;
@@ -81,9 +87,10 @@
 
         // }
         button:nth-child(2) {
-          background-color: var(--lightGold);
+          background-color: var(--white);
+          color: var(--green);
 
-          height: 32px;
+          height: 30px;
           margin-left: 14px;
           // border-radius: 30px;
           // border-top-right-radius: 25px;
