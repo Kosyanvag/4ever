@@ -3,6 +3,7 @@ import "./Nav.scss";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 import { useTranslation } from "react-i18next";
+
 export default function Nav() {
   const { t, i18n } = useTranslation();
 

@@ -10,8 +10,6 @@
   padding: 80px 0;
 
   &__content {
-
-    
     > div {
       width: 300px;
       height: 500px;
@@ -46,7 +44,7 @@
         height: 95px;
         font-size: 18px;
         margin: 0 auto 16px;
-        font-family: "Bellota Text";
+        // font-family: "Bellota Text";
         color: var(--lightGold);
       }
       > div {
@@ -61,8 +59,6 @@
         border: 1px solid var(--lightGold);
 
         button {
-          
-          
           width: 120px;
           height: 34px;
           font-size: 14px;
@@ -70,7 +66,7 @@
 
           color: var(--white);
           scale: 1;
-          font-family: "Bellota Text";
+          // font-family: "Bellota Text";
           background-color: var(--green);
           transition: 0.4s linear;
         }
