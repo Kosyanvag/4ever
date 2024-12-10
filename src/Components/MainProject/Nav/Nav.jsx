@@ -142,13 +142,13 @@ export default function Nav() {
                   value={i18n.language} // Привязываем значение селектора к текущему языку
                   onChange={(e) => changeLanguage(e.target.value)} // Обработчик выбора языка
                 >
-                  <option value="ru">RU</option>
-                  <option value="am">AM</option>
+                  <option value="ru">Русский</option>
+                  <option value="am">Հայերեն</option>
                 </select>
               </div>
 
               <button>
-                <a href="tel:+995551555322">+ 995 551 555 322</a>
+                <a href="tel:+995551555322">+ (995) 551 555 322</a>
               </button>
               <div className="burgerMenu__content-header">
                 <img src="./images/Main/Nav/logo2.jpg" alt="logo" />

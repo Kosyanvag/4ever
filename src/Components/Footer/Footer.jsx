@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
       <h6>
         <a className="email">
-          <img src="./images/Logo/copyrights.png" alt="" />
+          &#169;
           {t("footer.footerCopy")}
         </a>
       </h6>

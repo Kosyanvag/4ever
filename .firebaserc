@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fourever-ge"
-  }
+    "default": "fourever-ge",
+    "e": "fourever-ge"
+  },
+  "targets": {},
+  "etags": {}
 }

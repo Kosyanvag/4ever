@@ -31,10 +31,10 @@ export default function Pagination({ total }) {
                 <p>{elem.desc}</p>
               </Link>
               <div>
-                <button>
+                <h6>
                   {elem.price}
                   <span>{elem.rate}</span>
-                </button>
+                </h6>
                
                 <button onClick={() => handleClick(elem)}>{elem.order}</button>
               </div>

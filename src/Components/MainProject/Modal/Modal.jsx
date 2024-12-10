@@ -63,7 +63,7 @@ export default function Modal({ cancelModal }) {
             name="access_key"
             value="a36cd1fd-35a3-4d54-ad0e-3d86cd1cd265"
           ></input>
-          <button type="submit">Заказать</button>
+          <button type="submit">{t("modal.order")}</button>
         </form>
       </div>
     </div>

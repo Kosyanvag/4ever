@@ -18,15 +18,18 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--white);
   background-color: var(--lightGold);
   transition: 0.2s;
   cursor: pointer;
+
+  
 }
 li.selected {
   background-color: var(--lightGold);
   scale: 1;
   outline: 3px solid var(--lightGold);
   outline-offset: 5px;
+
 }

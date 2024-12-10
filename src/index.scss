@@ -29,8 +29,14 @@ img {
   -webkit-user-drag: none;
 }
 .font-hy {
-  font-family: "Noto Serif Armenian", serif;
+  font-family: "webly";
+  
 }
 .font-ru {
   font-family: "Bellota Text";
+}
+
+@font-face {
+  font-family: "webly";
+  src: url("./Components/fonts/weblysleekuil.ttf");
 }

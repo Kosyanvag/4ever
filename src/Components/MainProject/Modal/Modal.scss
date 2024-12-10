@@ -6,23 +6,22 @@
   inset: 0 0 0 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba($color: #000, $alpha: 0.2);
-  backdrop-filter: blur(6px);
+  background-color: rgba($color: #000, $alpha: 0.4);
+  backdrop-filter: blur(4px);
   display: flex;
   align-content: center;
   justify-content: center;
-  // font-family: "Bellota Text";
 
   &__content {
     background-color: var(--green);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1em;
     text-align: center;
     align-self: center;
     width: max(340px, 40%);
     min-height: 400px;
     box-shadow: -2px -7px 56px 4px rgba(238, 238, 238, 0.69);
-    border: 5px solid var(--lightGold);
+    border: 3px solid var(--lightGold);
     > div {
       display: flex;
       justify-content: end;
@@ -32,6 +31,7 @@
         width: 25px;
         margin-bottom: 10px;
         cursor: pointer;
+        transition: 0.2s linear;
         &:hover {
           scale: 0.9;
         }
@@ -41,6 +41,7 @@
     h2 {
       color: var(--lightGold);
       margin: 0 0 40px;
+      font-size: 22px;
     }
 
     form {
@@ -59,21 +60,21 @@
         font-size: 14px;
         flex-direction: row;
         padding: 8px;
-        color: var(--Ruluko);
-        font-family: "Bellota Text";
+        color: var(--lightGold);
+
         border: 0;
         &:focus {
           outline: none;
-          color: var(--Ruluko);
+          color: var(--lightGold);
         }
       }
       input {
         &::placeholder {
-          color: var(--Ruluko);
+          color: var(--lightGold);
         }
         &:focus {
           outline: none;
-          color: var(--Ruluko);
+          color: var(--lightGold);
         }
       }
       button {
@@ -86,7 +87,9 @@
         font-size: 16px;
         border: 0;
         margin-top: 10px;
-        font-family: "Bellota Text";
+     font-weight: 300;
+        transition: 0.2s linear;
+        
         &:hover {
           scale: 0.98;
         }
