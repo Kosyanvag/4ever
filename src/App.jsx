@@ -37,6 +37,8 @@ import Project from "./Components/MainProject/Project";
 import Pure from "./Components/Pure/Pure";
 import Serene from "./Components/Serene/Serene";
 import Bliss from "./Components/Bliss/Bliss";
+
+import GarikZina from "./Components/GarikZina/GarikZina";
 import Eternal from "./Components/Eternal/Eternal";
 import Embrace from "./Components/Embrace/Embrace";
 import Velvet from "./Components/Velvet/Velvet";
@@ -67,6 +69,7 @@ export default function App() {
         <Route path="/radiance" element={<Radiance />} />
         <Route path="/siluette" element={<Siluette />} />
         <Route path="/spark" element={<Spark />} />
+        <Route path="/garik&zina" element={<GarikZina />} />
         {/* <Route path="/Eclipse" element={<Eclipse />} /> */}
       </Routes>
     </div>
